@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo Site (Posts about Graphics-drivers)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/graphics-drivers.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 14:15:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Deep Learning Setup</title><link>https://example.com/posts/deeplearning_setup.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Specifications&lt;/h3&gt;
+&lt;p&gt;Installation of Deep Learning Setup ( Hybrid Graphics / Optimus Systems) =&amp;gt; Ubuntu 16.04 + Nvidia(Driver+CUDA) + OpenCV3.2 + Caffe with specifications =&amp;gt; GTX1070-Nvidia + i7-7700K ( Kabylake)&lt;/p&gt;
+&lt;h4&gt;After fresh installation of Ubuntu 16.04 "Disabling nouveau driver"&lt;/h4&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get update
+sudo apt-get upgrade
+&lt;/pre&gt;
+
+
+&lt;p&gt;&lt;a href="https://example.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><guid>https://example.com/posts/deeplearning_setup.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>

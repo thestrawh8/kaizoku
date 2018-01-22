@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo Site (Posts about [Collection, Learning Theory])</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/cat_collection-learning-theory.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 12:51:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Learning Theory Collection</title><link>https://example.com/posts/learningtheory_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Deep Learning Collection&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;[Deep Learning(CV) Algorithms Implementation Collection]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://hi.cs.waseda.ac.jp/~esimo/en/links/"&gt;Edgar Simo-Serra's Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;[Covers Convolutional + Variational Methods]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/joanbruna/stat212b"&gt;Joan Bruana's Statistical Approach of CNN's&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/joanbruna/infrep17"&gt;Joan Bruana's Foundations for Inference Approach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/lecture-notes/"&gt;MIT's Algos for Inference Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;David Barber &amp;amp; Michael Jordan's Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;Algorithms in Reinforcmeent Learning by Csaba Szepesvari&lt;/a&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Resources</category><guid>https://example.com/posts/learningtheory_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>

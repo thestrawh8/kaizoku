@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo Site (Posts about Collections)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/cat_collections.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 14:15:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Collection of Readings</title><link>https://example.com/posts/mathematics_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h4&gt;Books to Read&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Randoimized Algorithms by Rajeev Motwani.&lt;/li&gt;
+&lt;li&gt;Data Structures and Network algorithms by Tarjan.&lt;/li&gt;
+&lt;li&gt;Convex Optimization by Stephen Boyd.&lt;/li&gt;
+&lt;li&gt;Reinforcement Learning by Csaba Szepesvari&lt;/li&gt;
+&lt;li&gt;Deep Learning Book by &lt;/li&gt;
+&lt;li&gt;Approximation Algorithms by V.Vazirani&lt;/li&gt;
+&lt;li&gt;Reinhard Diestel's Graph Theory&lt;/li&gt;
+&lt;li&gt;The Probablistic Graphical Models by Daphielene Koller.
+&lt;p&gt;&lt;a href="https://example.com/posts/mathematics_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Algorithms</category><category>Graph Thoery</category><category>Mathematics</category><guid>https://example.com/posts/mathematics_collection.html</guid><pubDate>Tue, 05 Dec 2017 12:06:09 GMT</pubDate></item></channel></rss>

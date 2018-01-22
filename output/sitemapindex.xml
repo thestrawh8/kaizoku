@@ -6,39 +6,127 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://example.com/categories/algorithms.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/audio-driver.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/caffe.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_collection-learning-theory.xml</loc>
+  <lastmod>2018-01-22T12:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_collection.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_collections.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://example.com/categories/cat_installation.xml</loc>
-  <lastmod>2018-01-22T09:46:00Z</lastmod>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_mathematics.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_private.xml</loc>
+  <lastmod>2018-01-22T12:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/cat_programming.xml</loc>
-  <lastmod>2018-01-22T09:46:00Z</lastmod>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/collection.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/collections.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/computer-vision.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/conferences.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/deep-learning-setup.xml</loc>
   <lastmod>2018-01-22T09:46:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://example.com/categories/doubts.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/graph-thoery.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/graphics-drivers.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/hacks.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://example.com/categories/hardware.xml</loc>
   <lastmod>2018-01-22T09:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/ideas.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/installation.xml</loc>
   <lastmod>2018-01-22T09:46:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://example.com/categories/learning-thoery.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://example.com/categories/leet-code.xml</loc>
   <lastmod>2018-01-22T09:46:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://example.com/categories/mathematics.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://example.com/categories/practice.xml</loc>
-  <lastmod>2018-01-22T09:46:00Z</lastmod>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/resources.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/solutions.xml</loc>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/targets.xml</loc>
+  <lastmod>2018-01-22T12:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/rss.xml</loc>
-  <lastmod>2018-01-22T09:46:00Z</lastmod>
+  <lastmod>2018-01-22T14:15:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2018-01-22T10:55:00Z</lastmod>
+  <lastmod>2018-01-22T14:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>

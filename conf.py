@@ -485,7 +485,7 @@ FRONT_INDEX_HEADER = {
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
@@ -710,7 +710,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # depending on the value of INDEXES_PAGES_MAIN.
 #
 # (translatable) If the following is empty, defaults to BLOG_TITLE:
-# INDEXES_TITLE = ""
+INDEXES_TITLE = ""
 #
 # (translatable) If the following is empty, defaults to ' [old posts,] page %d' (see above):
 INDEXES_PAGES = "page %d"
@@ -841,7 +841,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} and Thanks to {references}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -858,9 +858,9 @@ CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
         (),
         {
-            "email": BLOG_EMAIL,
-            "author": BLOG_AUTHOR,
+            "email": "thestrawh8@gmail.com",
             "date": time.gmtime().tm_year,
+            "references": "vickysteevs & mallcock1",
             "license": LICENSE
         }
     )
@@ -875,7 +875,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "thestrawh8"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -890,7 +890,7 @@ COMMENT_SYSTEM_ID = "nikolademo"
 #          will not be generated for that directory.
 # STORY_INDEX = False
 # Enable comments on story pages?
-# COMMENTS_IN_STORIES = False
+COMMENTS_IN_PAGES = True
 # Enable comments on picture gallery pages?
 # COMMENTS_IN_GALLERIES = False
 
@@ -1012,14 +1012,14 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-# INDEX_DISPLAY_POST_COUNT = 10
+INDEX_DISPLAY_POST_COUNT = 3
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
@@ -1139,7 +1139,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
-# ADDITIONAL_METADATA = {}
+ADDITIONAL_METADATA = {"password"}
 
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
 # discoverability of your site on Facebook, Google+, and other services.

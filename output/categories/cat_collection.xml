@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo Site (Posts about Collection)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/cat_collection.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 14:15:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Collection of Doubts</title><link>https://example.com/posts/doubts_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Dive into my sea of questions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pointer operation on a struct in C++ (How are the memory chunks assigned to the struct variable).&lt;/li&gt;
+&lt;li&gt;Working and Applications of Minimum Spanning Tree.&lt;/li&gt;
+&lt;li&gt;Why is Clique an NP Problem ?
+&lt;p&gt;&lt;a href="https://example.com/posts/doubts_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Doubts</category><guid>https://example.com/posts/doubts_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Computer Vision Collection</title><link>https://example.com/posts/computer_vision_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Computer Vision or Computer Graphics Courses&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;http://vision.stanford.edu/teaching/cs131_fall1617/&lt;/li&gt;
+&lt;li&gt;http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html&lt;/li&gt;
+&lt;li&gt;http://web.stanford.edu/class/cs231a/course_notes.html&lt;/li&gt;
+&lt;li&gt;https://cs.brown.edu/courses/csci1430/&lt;/li&gt;
+&lt;li&gt;http://www.cc.gatech.edu/~hays/compvision/
+&lt;p&gt;&lt;a href="https://example.com/posts/computer_vision_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Computer Vision</category><guid>https://example.com/posts/computer_vision_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://example.com/posts/hacks_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Unsorted Collection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.regular-expressions.info/quickstart.html"&gt;Detailed explanation of Regular Expressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aerobatic.com/blog/password-protect-a-jekyll-site/"&gt;Password Protected jekyll website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fluentcpp.com/"&gt;C++ STL Resource&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://coligo.io/create-url-shortener-with-node-express-mongo/"&gt;TinyURL Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://askubuntu.com/questions/156169/how-do-i-set-up-file-sharing-between-two-ubuntu-laptops-on-my-wireless-network"&gt;How to connect two Ubuntu systems in same network&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://example.com/posts/hacks_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Hacks</category><guid>https://example.com/posts/hacks_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Ideas Collection</title><link>https://example.com/posts/ideas_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;Learn about Clang,LLVM, and importance of Compilers and their usage &lt;a href="https://www.quora.com/Who-are-some-of-the-IIT-alumni-who-have-really-made-a-mark-in-the-world/answer/Simmi-Mourya-2?srid=3lyQY"&gt;&lt;code&gt;Resource Link&lt;/code&gt; - Thanks to Simmi Mourya for her answer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some shared file in-order to share between systems connected in same network for home pc's&lt;/li&gt;
+&lt;li&gt;Script to create a mapping between the folders and the set of words inside the pdf's to sort your reading material&lt;/li&gt;
+&lt;li&gt;Identifying Table in a image and converting into a table
+&lt;p&gt;&lt;a href="https://example.com/posts/ideas_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><category>Ideas</category><guid>https://example.com/posts/ideas_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Learning Theory Collection</title><link>https://example.com/posts/learningtheory_collection.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;h3&gt;Deep Learning Collection&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;[Deep Learning(CV) Algorithms Implementation Collection]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://hi.cs.waseda.ac.jp/~esimo/en/links/"&gt;Edgar Simo-Serra's Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;[Covers Convolutional + Variational Methods]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/joanbruna/stat212b"&gt;Joan Bruana's Statistical Approach of CNN's&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/joanbruna/infrep17"&gt;Joan Bruana's Foundations for Inference Approach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/lecture-notes/"&gt;MIT's Algos for Inference Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;David Barber &amp;amp; Michael Jordan's Books&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;Algorithms in Reinforcmeent Learning by Csaba Szepesvari&lt;/a&gt;
+&lt;/p&gt;&lt;p&gt;&lt;a href="https://example.com/posts/learningtheory_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Learning Thoery</category><category>Resources</category><guid>https://example.com/posts/learningtheory_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>List of Conferences in Target</title><link>https://example.com/posts/conferences_list.html</link><dc:creator>Your Name</dc:creator><description>&lt;div&gt;&lt;script&gt;
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i &lt; 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i &lt; 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y &lt; str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "&lt;!--tail--&gt;"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+&lt;/script&gt;
+
+&lt;div id="encr" style="display: none;"&gt;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&lt;/div&gt;
+&lt;div id="pwform"&gt;
+&lt;form onsubmit="javascript:decrypt(); return false;" class="form-inline"&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;This post is password-protected.&lt;/legend&gt;
+&lt;input type="password" id="key" placeholder="Type password here"&gt;
+&lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
+&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>conferences</category><guid>https://example.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>
