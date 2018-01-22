@@ -1,0 +1,112 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="index_helper.tmpl"/>
+<%namespace name="math" file="math_helper.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%namespace name="pagination" file="pagination_helper.tmpl"/>
+<%namespace name="feeds_translations" file="feeds_translations_helper.tmpl" import="*"/>
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+    % if posts and (permalink == '/' or permalink == '/' + index_file):
+        <link rel="prefetch" href="${posts[0].permalink()}" type="text/html">
+    % endif
+    ${math.math_styles_ifposts(posts)}
+</%block>
+
+<%block name="content">
+<%block name="content_header">
+    ${feeds_translations.translation_link()}
+</%block>
+% if 'main_index' in pagekind:
+    ${front_index_header}
+% endif
+% if page_links:
+    ${pagination.page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed)}
+% endif
+
+<div class="col-md-3">
+    <div class="card mb-3" style="margin-bottom: 1rem;">
+      <h3 class="card-header" style="margin-top: 0;text-align:  center;">strawh8</h3>
+      <div class="card-body">
+        <h6 class="card-subtitle text-muted"> "I will sail all the seas"</h6>
+    </div>
+    <img style="max-width: 100%; display: block;" src="/images/luffy.jpg" alt="Card image">
+    <div class="card-footer text-muted">
+        Last Update: 22-1-2018
+    </div>
+</div>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Machine Learning
+    <span class="badge badge-primary badge-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Mathematics
+    <span class="badge badge-primary badge-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Programming
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+</ul>
+
+<div class="card text-white bg-primary mb-3">
+  <div class="card-header" style="font-weight: 600;">Richard Feynman</div>
+  <div class="card-body">
+    <p class="card-text" style="font-style:  italic;">The first principle is you must not fool yourself - and your are the most easiest person to fool by yourself</p>
+  </div>
+</div>
+
+<div class="card text-white bg-success mb-3">
+  <div class="card-header" style="font-weight: 600;">Monkey D Luffy</div>
+  <div class="card-body">
+    <p class="card-text" style="font-style:  italic;">I've set myself to become the King of Pirates. And if i die trying, at least I tried.</p>
+  </div>
+</div>
+
+<div class="card text-white bg-secondary mb-3">
+  <div class="card-header" style="font-weight: 600;">Tylor Durden</div>
+  <div class="card-body">
+    <p class="card-text" style="font-style:  italic;">No fear. No distractions. The ability to let that which does not matter truly slide</p>
+  </div>
+</div>
+
+</div>
+
+<div class="col-md-9">
+<div class="postindex">
+% for post in posts:
+    <article class="h-entry post-${post.meta('type')}">
+    <header>
+        <h1 class="p-name entry-title"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+            % if author_pages_generated:
+                <a href="${_link('author', post.author())}">${post.author()|h}</a>
+            % else:
+                ${post.author()|h}
+            % endif
+            </span></p>
+            <p class="dateline"><a href="${post.permalink()}" rel="bookmark"><time class="published dt-published" datetime="${post.formatted_date('webiso')}" title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time></a></p>
+            % if not post.meta('nocomments') and site_has_comments:
+                <p class="commentline">${comments.comment_link(post.permalink(), post._base_path)}
+            % endif
+        </div>
+    </header>
+    %if index_teasers:
+    <div class="p-summary entry-summary">
+    ${post.text(teaser_only=True)}
+    %else:
+    <div class="e-content entry-content">
+    ${post.text(teaser_only=False)}
+    %endif
+    </div>
+    </article>
+% endfor
+</div>
+</div>
+${helper.html_pager()}
+${comments.comment_link_script()}
+${math.math_scripts_ifposts(posts)}
+</%block>
