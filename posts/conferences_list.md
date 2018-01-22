@@ -2,7 +2,7 @@
 .. title: List of Conferences in Target
 .. slug: 
 .. date: 2018-01-21 12:06:09 UTC
-.. tags: conferences
+.. tags: Conferences
 .. category: Collection
 .. link: 
 .. description: 

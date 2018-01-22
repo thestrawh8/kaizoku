@@ -2,8 +2,8 @@
 .. title: Programming Problems Collection
 .. slug: 
 .. date: 2017-12-05 12:06:09 UTC
-.. tags: Collection, Practice
-.. category: Programming
+.. tags: Programming, Practice
+.. category: Collection
 .. link: 
 .. description: 
 .. type: text

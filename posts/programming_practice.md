@@ -2,8 +2,8 @@
 .. title: Competitive Programming Trajectory
 .. slug: 
 .. date: 2018-01-21 12:06:09 UTC
-.. tags: Solutions, Practice
-.. category: Programming
+.. tags: Programming, Practice
+.. category: Solutions
 .. link: 
 .. description: 
 .. type: text
