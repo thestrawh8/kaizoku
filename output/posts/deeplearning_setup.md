@@ -1,8 +1,8 @@
 .. title: Deep Learning Setup
 .. slug: 
 .. date: 2018-01-21 12:06:09 UTC
-.. tags: Graphics-drivers,Caffe
-.. category:Installation, Learning Thoery
+.. tags: Graphics-drivers, Caffe, Learning Thoery
+.. category:Installation 
 .. link: 
 .. description: 
 .. type: text

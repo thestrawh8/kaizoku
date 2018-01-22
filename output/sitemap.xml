@@ -19,19 +19,19 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/archive.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/algorithms.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/audio-driver.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/caffe.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/cat_collection-learning-theory.html</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/cat_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/cat_collections.html</loc>
@@ -47,7 +47,7 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/cat_installation.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/cat_mathematics.html</loc>
@@ -62,6 +62,10 @@
   <lastmod>2018-01-22T17:50:00Z</lastmod>
  </url>
  <url>
+  <loc>https://thestrawh8.netlify.com/categories/cat_solutions.html</loc>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://thestrawh8.netlify.com/categories/collection.html</loc>
   <lastmod>2018-01-22T17:50:00Z</lastmod>
  </url>
@@ -71,11 +75,11 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/computer-vision.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/conferences.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/deep-learning-setup.html</loc>
@@ -83,19 +87,19 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/doubts.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/graph-thoery.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/graphics-drivers.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/hacks.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/hardware.html</loc>
@@ -103,11 +107,11 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/ideas.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/index.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/installation.html</loc>
@@ -115,7 +119,7 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/learning-thoery.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/leet-code.html</loc>
@@ -123,15 +127,19 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/mathematics.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/practice.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://thestrawh8.netlify.com/categories/programming.html</loc>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/resources.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/categories/solutions.html</loc>
@@ -143,39 +151,39 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/index-1.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/index-2.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/index-3.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/index.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/audiodrivers_installation.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/conferences_list.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/doubts_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/first-post.html</loc>
@@ -183,15 +191,15 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/hacks_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/ideas_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/learningtheory_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/math_collection.html</loc>
@@ -199,15 +207,15 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/mathematics_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/programming_collection.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/programming_practice.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/posts/second-post.html</loc>
@@ -219,26 +227,26 @@
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/academic.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/chess.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/contact.html</loc>
-  <lastmod>2018-01-22T18:43:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/dots.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/music.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://thestrawh8.netlify.com/stories/quotes.html</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </url>
 </urlset>

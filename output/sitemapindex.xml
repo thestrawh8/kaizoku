@@ -7,15 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/algorithms.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/audio-driver.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/caffe.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/cat_collection-learning-theory.xml</loc>
@@ -23,7 +23,7 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/cat_collection.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/cat_collections.xml</loc>
@@ -31,7 +31,7 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/cat_installation.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/cat_mathematics.xml</loc>
@@ -46,6 +46,10 @@
   <lastmod>2018-01-22T17:50:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://thestrawh8.netlify.com/categories/cat_solutions.xml</loc>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/collection.xml</loc>
   <lastmod>2018-01-22T17:50:00Z</lastmod>
  </sitemap>
@@ -55,11 +59,11 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/computer-vision.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/conferences.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/deep-learning-setup.xml</loc>
@@ -67,19 +71,19 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/doubts.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/graph-thoery.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/graphics-drivers.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/hacks.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/hardware.xml</loc>
@@ -87,7 +91,7 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/ideas.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/installation.xml</loc>
@@ -95,7 +99,7 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/learning-thoery.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/leet-code.xml</loc>
@@ -103,15 +107,19 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/mathematics.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/practice.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://thestrawh8.netlify.com/categories/programming.xml</loc>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/resources.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/solutions.xml</loc>
@@ -123,10 +131,10 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/rss.xml</loc>
-  <lastmod>2018-01-22T17:50:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/sitemap.xml</loc>
-  <lastmod>2018-01-22T18:43:00Z</lastmod>
+  <lastmod>2018-01-22T20:26:00Z</lastmod>
  </sitemap>
 </sitemapindex>

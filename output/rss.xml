@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would liek to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 17:50:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Audio Drivers Installion</title><link>https://thestrawh8.netlify.com/posts/audiodrivers_installation.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Temporary Adjustment&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would liek to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Jan 2018 20:26:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Audio Drivers Installion</title><link>https://thestrawh8.netlify.com/posts/audiodrivers_installation.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Temporary Adjustment&lt;/h3&gt;
 &lt;p&gt;It has been that there is a requirement of 4.11 kernel version for Realtek-ALC1220 to support. So if you too built a your new PC like me then it might be helpful to you for temporary replacement. Uninstall your alsa-base and reinstall latest version it will work fine.&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get remove alsa-base
 &lt;/pre&gt;
@@ -43,7 +43,7 @@
 &lt;/pre&gt;
 
 
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/programming_practice.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Practice</category><category>Solutions</category><guid>https://thestrawh8.netlify.com/posts/programming_practice.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Computer Vision or Computer Graphics Courses&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/programming_practice.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Practice</category><category>Programming</category><guid>https://thestrawh8.netlify.com/posts/programming_practice.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Computer Vision or Computer Graphics Courses&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;http://vision.stanford.edu/teaching/cs131_fall1617/&lt;/li&gt;
 &lt;li&gt;http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html&lt;/li&gt;
@@ -58,7 +58,7 @@ sudo apt-get upgrade
 &lt;/pre&gt;
 
 
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><guid>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://thestrawh8.netlify.com/posts/hacks_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Unsorted Collection&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><category>Learning Thoery</category><guid>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://thestrawh8.netlify.com/posts/hacks_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Unsorted Collection&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.regular-expressions.info/quickstart.html"&gt;Detailed explanation of Regular Expressions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.aerobatic.com/blog/password-protect-a-jekyll-site/"&gt;Password Protected jekyll website&lt;/a&gt;&lt;/li&gt;
@@ -129,7 +129,7 @@ function decrypt() {
 &lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
 &lt;/fieldset&gt;
 &lt;/form&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Collection of Readings</title><link>https://thestrawh8.netlify.com/posts/mathematics_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h4&gt;Books to Read&lt;/h4&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Collection of Readings</title><link>https://thestrawh8.netlify.com/posts/mathematics_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h4&gt;Books to Read&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Randoimized Algorithms by Rajeev Motwani.&lt;/li&gt;
 &lt;li&gt;Data Structures and Network algorithms by Tarjan.&lt;/li&gt;
@@ -137,6 +137,5 @@ function decrypt() {
 &lt;li&gt;Reinforcement Learning by Csaba Szepesvari&lt;/li&gt;
 &lt;li&gt;Deep Learning Book by &lt;/li&gt;
 &lt;li&gt;Approximation Algorithms by V.Vazirani&lt;/li&gt;
-&lt;li&gt;Reinhard Diestel's Graph Theory&lt;/li&gt;
-&lt;li&gt;The Probablistic Graphical Models by Daphielene Koller.
+&lt;li&gt;Reinhard Diestel's Graph Theory
 &lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/mathematics_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Algorithms</category><category>Graph Thoery</category><category>Mathematics</category><guid>https://thestrawh8.netlify.com/posts/mathematics_collection.html</guid><pubDate>Tue, 05 Dec 2017 12:06:09 GMT</pubDate></item></channel></rss>
