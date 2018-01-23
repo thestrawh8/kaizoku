@@ -1090,10 +1090,9 @@ SEARCH_FORM = """
 <button type="submit" class="btn btn-primary">
 	<span class="glyphicon glyphicon-search"></span>
 </button>
-<input type="hidden" name="sitesearch" value="%s">
 </form>
 <!-- End of custom search -->
-""" % SITE_URL
+""" 
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
