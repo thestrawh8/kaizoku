@@ -1192,7 +1192,7 @@ BODY_END = """
 UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
-ADDITIONAL_METADATA = {"password"}
+# ADDITIONAL_METADATA = {}
 
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
 # discoverability of your site on Facebook, Google+, and other services.
@@ -1211,11 +1211,11 @@ ADDITIONAL_METADATA = {"password"}
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
 # TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
+#     'use_twitter_cards': True,  # enable Twitter Cards
+#     'card': 'summary',          # Card type, you can also use 'summary_large_image',
 #                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
+#     'site': '@strawh8dots',         # twitter nick for the website
+#     'creator': '@thestrawh8',     # Username for the content creator / author.
 # }
 
 # If webassets is installed, bundle JS and CSS into single files to make

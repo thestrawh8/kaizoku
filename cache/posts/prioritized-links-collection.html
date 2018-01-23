@@ -1,0 +1,47 @@
+<script>
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i < 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i < 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y < str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "<!--tail-->"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+</script>
+
+<div id="encr" style="display: none;">f6r9QxyQpKV3SPgoIjyoeZ17PeK3Ar/04AWbHanEQWfURSPOauYBD4xe/V2USEZjfZNL2aDZ2XKrBMJ5ApDUkwmZSggrAJnNALayTJeyLlvnIMUSssVB835lwat8bCI6YzB4PPlkh6HAGiM22xgX5pPY02zBcaEGCqCUOQuw6FPcHgC7uB+k2ubQsTrS5zFiyx6+361Jw1Fb2w03PTZTRcnd+TEPQimO+Tki95HTNfH8UwwD26/tr7mcIm1DlFBJNcUPAplZngroA2gXzvjLgr94jNeugtYcd1w/CwKwBOUvyFfedQyBk2zX0L8EJ5us9XfGPI62IWjaWJFvvB9N7tLTCR9Sd+zCJKN/zAR1EEnbymN3BWhqDujVhCMtE86bMLRsCYgmz9ltjXUA05GntsrbkMZiAv0Ujg0nwpYADAeBmRq0MJk9/dVDs8jJPYfri4tk+s7clrnOyNwcrGMQV0lJuMdt98NeITIbnsjzNyCN3dsCG8CuPUJXmbyTowtg3XUkeyca91WUajdunrfqgD9g2zt7n6pxcJaaxgcQEkfegm+EDRoZtdjB9D8UyPAVFWgiMGdho9hEr6bTvCwVEh5Vhx+X50RUGakbOyQWFf774MAtJIeNXYd4BUsDeYsznTtMSrG1ETHjlYTEuqr+Hav0500EIbCqDVEAlrCtype1rx9GmUpuBS2IfT16RHT5YyVzmWHwr5qAyBVbo7jBYZZat8LCuw/VC2i7l8qb1Wvcwyl7OaJoRnmcZZv7J9YRrulwiP6wvIXoNB6xMEULC4T5ETm5Ax8qo/L2hCLvpbtcWsO0f0lMZSYVoh56qsEWZ/eh5IXWuKdGpiK1oxMmW2RN6bz+UK2w+3rZJSmdYn2VvViRGAwL</div>
+<div id="pwform">
+<form onsubmit="javascript:decrypt(); return false;" class="form-inline">
+<fieldset>
+<legend>This post is password-protected.</legend>
+<input type="password" id="key" placeholder="Type password here">
+<button type="submit" class="btn">Show Content</button>
+</fieldset>
+</form>
+</div>
