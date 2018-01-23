@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+import json
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -1060,7 +1061,11 @@ INDEX_DISPLAY_POST_COUNT = 4
 # Or a DuckDuckGo search: https://duckduckgo.com/search_box.html
 # Default is no search form.
 # (translatable)
-# SEARCH_FORM = ""
+SEARCH_FORM = """
+<span class="navbar-form navbar-left">
+    <input type="text" id="tipue_search_input" class="form-control" placeholder="Search">
+    </span>"""
+
 #
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
@@ -1081,18 +1086,19 @@ INDEX_DISPLAY_POST_COUNT = 4
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-SEARCH_FORM = """
-<!-- Google custom search -->
-<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-<div class="form-group">
-<input type="text" name="q" class="form-control" placeholder="Search">
-</div>
-<button type="submit" class="btn btn-primary">
-	<span class="glyphicon glyphicon-search"></span>
-</button>
-</form>
-<!-- End of custom search -->
-""" 
+# SEARCH_FORM = """
+# <!-- Google custom search -->
+# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+# <div class="form-group">
+# <input type="text" name="q" class="form-control" placeholder="Search">
+# </div>
+# <button type="submit" class="btn btn-primary">
+# 	<span class="glyphicon glyphicon-search"></span>
+# </button>
+# <input type="hidden" name="sitesearch" value="%s">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1112,19 +1118,54 @@ SEARCH_FORM = """
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112923403-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+    """
 
-  gtag('config', 'UA-112923403-1');
-</script>
-"""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
+<!-- Modal -->
+    <div id="search-results" class="modal fade" role="dialog" style="height: 80%;">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Search Results:</h4>
+          </div>
+          <div class="modal-body" id="tipue_search_content" style="max-height: 600px; overflow-y: auto;">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <script>
+    var siteUrl = """ + json.dumps(SITE_URL) + """
+    $(document).ready(function() {
+        $.when(
+            $.getScript( siteUrl + "/assets/js/tipuesearch_set.js" ),
+            $.getScript( siteUrl + "/assets/js/tipuesearch.js" ),
+            $.Deferred(function( deferred ){
+                $( deferred.resolve );
+            })
+        ).done(function() {
+            $('#tipue_search_input').tipuesearch({
+                'mode': 'json',
+                'contentLocation': siteUrl + '/assets/js/tipuesearch_content.json'
+            });
+            $('#tipue_search_input').keyup(function (e) {
+                if (e.keyCode == 13) {
+                    $('#search-results').modal()
+                }
+            });
+        });
+    });
+    </script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a66222e7a2540bb"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a66222e7a2540bb"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a66222e7a2540bb"></script>
