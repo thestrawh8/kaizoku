@@ -1062,9 +1062,15 @@ INDEX_DISPLAY_POST_COUNT = 4
 # Default is no search form.
 # (translatable)
 SEARCH_FORM = """
-<span class="navbar-form navbar-left">
-    <input type="text" id="tipue_search_input" class="form-control" placeholder="Search">
-    </span>"""
+<form class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" id="tipue_search_input"  class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</form>
+    """
 
 #
 # This search form works for any site and looks good in the "site" theme where
