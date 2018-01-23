@@ -92,7 +92,7 @@
 'render_posts:cache/stories/chess.html', (76800, 435)
 'render_taxonomies:output/categories/installation.html', (77312, 2365)
 'render_posts:cache/posts/first post.html', (79872, 356)
-'render_pages:output/stories/academic.html', (87552, 5469)
+'render_pages:output/stories/academic.html', (87552, 5468)
 'render_sources:output/posts/second-post.md', (93184, 248)
 'render_taxonomies:output/categories/installation.xml', (93696, 847)
 'render_pages:output/stories/chess.html', (94720, 5531)
