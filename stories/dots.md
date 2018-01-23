@@ -1,5 +1,5 @@
 
-.. title: My Projection of the differential manifold named life onto the Philosophy plane.
+.. title: Projections of the manifold named life onto the philosophy plane.
 .. slug: 
 .. date: 2018-01-12 12:06:09 UTC
 .. tags: 
@@ -8,7 +8,6 @@
 .. description: 
 .. type: text
 
-## Transformational Thoughts from inspiring characters
 
 ### Mingyur Rinpoche
 
