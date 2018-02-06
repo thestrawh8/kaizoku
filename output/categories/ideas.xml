@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Ideas)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/ideas.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 Jan 2018 12:34:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ideas Collection</title><link>https://thestrawh8.netlify.com/posts/ideas_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
-&lt;li&gt;Learn about Clang,LLVM, and importance of Compilers and their usage &lt;a href="https://www.quora.com/Who-are-some-of-the-IIT-alumni-who-have-really-made-a-mark-in-the-world/answer/Simmi-Mourya-2?srid=3lyQY"&gt;&lt;code&gt;Resource Link&lt;/code&gt; - Thanks to Simmi Mourya for her answer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Some shared file in-order to share between systems connected in same network for home pc's&lt;/li&gt;
-&lt;li&gt;Script to create a mapping between the folders and the set of words inside the pdf's to sort your reading material&lt;/li&gt;
-&lt;li&gt;Identifying Table in a image and converting into a table
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/ideas_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><category>Ideas</category><guid>https://thestrawh8.netlify.com/posts/ideas_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Ideas)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/ideas.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 06 Feb 2018 11:39:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ideas Collection</title><link>https://thestrawh8.netlify.com/posts/ideas_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i &lt; 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i &lt; 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y &lt; str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "&lt;!--tail--&gt;"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+&lt;/script&gt;
+
+&lt;div id="encr" style="display: none;"&gt;f7ejQ1rJqb4nHfdvahqles8rLLaPG6KlvAqvBbKGVXHPXi2OerVDSOkImEyAVh1EMpBPgrHXnzetCcFpabH0yhjPEEoyHsOUC6qxUZugZRPxMIsArdAF6HRoyvUyAgIIUmNgbdBklajJW2VvhlZNi5PYxHLQI885BKKLOVKV6lWOJA7j+FOyiM+Uz2bS6w1ZgEHOla0FkV5W0FxIdXp5F5TSvnUxaxn+93E37YXJc7PuXRAT07Xvpv6Aai5vlhIbYusLHo4Qi0TNT3sQ2fjNyqd4zfOk0pUYKhR5CAX9Lrs6gSr+ewOFk0zF1L0EMM2r7nKfM4bmMCjEVcoXoAdL8J3aSAVFMuiacrxu3RpvTB/Y22lqGi0nAvXaiCx3G8PPd78oD8Yxz4B2iW9Y1Y2o89SaipJnT64rywQxhIscYiek4l6lBrhWjsBUqMGddJ3324Fk9sHP0+vKm9QcrnARXFxV9cMnvIlXJixlysG6b3OAmdYCDYbycU4DmaTMrFdkzicqamYBtlCZcn50k6zsiDsy3H190LZge9OAh10aVkGevH7HAAAeotP9/ioV0rUTW2FoNmd1r8tN/erapjAhfRpVySSSomtHEb0VMyZWRor57dk6d4vDEoh4TGoHf5x9lTtPSrO0G2fJl4TEuaSkFbHp5wNFZ6u5T24A2+qkzd3W8h8P42ZgHDKEfzY0fTWhTmtyxC30seLZyFkepbTKOZRXrdfR9U2fEmvs0MeLl2vVzml5faMvXSqcZZ2wPcEM4opKssngqcnHfFimM0BZWIXnABS8WG02nPehszzypKUdbMu5O2NQc3kj+j5zucwAOZC1+onL/8R7tjmooEB7WT8co77jTuvptX3bcnvbYWzOsFjDPx1ZA5ngK/R7Na+MuWtlwT74JsUnPPR3yxP7N3is2GLLTwS6bYSa2fKm3u04a306Vm8UQMDQSoU7T0XEgQz+lBkScNXoX0cIqJGzQe3JNfXrAhrG1u5WyZ9yt+kvhodbUXx8b3Bm2HZQ+6C1WCGqdvkXLIuy3LHViyBiZRhCg8CTftoVx/wmr2AkFog5E6zzUn8iqiIZ7V3/dTrRi+k+XLxGupb+Aerd7RqAfGjI5th7I+eg8AVaTQmYGllcGzqRF90FVi3h6IQ8YEqn+j1yJDmUjl+fogK99TkquQvCAwB7g43tUSnzzZr1TUw8l4nv5A9hmEVvQWskdW77r4lxezYx&lt;/div&gt;
+&lt;div id="pwform"&gt;
+&lt;form onsubmit="javascript:decrypt(); return false;" class="form-inline"&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;This post is password-protected.&lt;/legend&gt;
+&lt;div class="form-group"&gt;
+&lt;input type="password" id="key" placeholder="Type password here"&gt;
+&lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Ideas</category><guid>https://thestrawh8.netlify.com/posts/ideas_collection.html</guid><pubDate>Tue, 06 Feb 2018 11:38:00 GMT</pubDate></item></channel></rss>

@@ -11,7 +11,7 @@ import json
 # ! Some settings can be different in different languages.
 # ! A comment stating (translatable) is used to denote those.
 # ! There are two ways to specify a translatable setting:
-# ! (a) BLOG_TITLE = "My Blog"
+# ! (a) BLOG_TITLE = "Random Dots"
 # ! (b) BLOG_TITLE = {"en": "My Blog", "es": "Mi Blog"}
 # ! Option (a) is used when you don't want that setting translated.
 # ! Option (b) is used for settings that are different in different languages.
@@ -27,7 +27,7 @@ SITE_URL = "https://thestrawh8.netlify.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "thestrawh8@gmail.com"
-BLOG_DESCRIPTION = "I would liek to use this as a platform to learn from and share with people."  # (translatable)
+BLOG_DESCRIPTION = "I would like to use this as a platform to learn from and share with people."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -198,7 +198,7 @@ PAGES = (
 # (e.g. 'Europe/Zurich')
 # Also, if you want to use a different time zone in some of your posts,
 # you can use the ISO 8601/RFC 3339 format (ex. 2012-03-30T23:00:00+02:00)
-TIMEZONE = "UTC"
+TIMEZONE = "UTC+05:30"
 
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
@@ -207,11 +207,12 @@ TIMEZONE = "UTC"
 
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+# DATE_FORMAT = '%Y-%m-%d'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
 # JS_DATE_FORMAT = 'YYYY-MM-DD HH:mm'
+JS_DATE_FORMAT = 'DD MMM-YYYY HH:mm'
 
 # Date fanciness.
 #
@@ -220,7 +221,7 @@ TIMEZONE = "UTC"
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, bootstrap and bootstrap3 already do.
-# DATE_FANCINESS = 0
+DATE_FANCINESS = 1
 
 # While Nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -418,7 +419,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = False
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -815,7 +816,7 @@ INDEX_TEASERS = True
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" style="color: #1ec12d;">{reading_time} minute read…</a><a </p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
@@ -1020,7 +1021,7 @@ SHOW_SOURCELINK = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-INDEX_DISPLAY_POST_COUNT = 4
+INDEX_DISPLAY_POST_COUNT = 8
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.

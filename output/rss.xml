@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would liek to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 Jan 2018 16:58:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Prioritized Links Collection</title><link>https://thestrawh8.netlify.com/posts/prioritized-links-collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would like to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 06 Feb 2018 11:55:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ideas Collection</title><link>https://thestrawh8.netlify.com/posts/ideas_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
 function rc4(key, str) {
     var s = [], j = 0, x, res = '';
     for (var i = 0; i &lt; 256; i++) {
@@ -36,34 +36,19 @@ function decrypt() {
 }
 &lt;/script&gt;
 
-&lt;div id="encr" style="display: none;"&gt;f6r9QxyQpKV3SPgoIjyoeZ17PeK3Ar/04AWbHanEQWfURSPOauYBD4xe/V2USEZjfZNL2aDZ2XKrBMJ5ApDUkwmZSggrAJnNALayTJeyLlvnIMUSssVB835lwat8bCI6YzB4PPlkh6HAGiM22xgX5pPY02zBcaEGCqCUOQuw6FPcHgC7uB+k2ubQsTrS5zFiyx6+361Jw1Fb2w03PTZTRcnd+TEPQimO+Tki95HTNfH8UwwD26/tr7mcIm1DlFBJNcUPAplZngroA2gXzvjLgr94jNeugtYcd1w/CwKwBOUvyFfedQyBk2zX0L8EJ5us9XfGPI62IWjaWJFvvB9N7tLTCR9Sd+zCJKN/zAR1EEnbymN3BWhqDujVhCMtE86bMLRsCYgmz9ltjXUA05GntsrbkMZiAv0Ujg0nwpYADAeBmRq0MJk9/dVDs8jJPYfri4tk+s7clrnOyNwcrGMQV0lJuMdt98NeITIbnsjzNyCN3dsCG8CuPUJXmbyTowtg3XUkeyca91WUajdunrfqgD9g2zt7n6pxcJaaxgcQEkfegm+EDRoZtdjB9D8UyPAVFWgiMGdho9hEr6bTvCwVEh5Vhx+X50RUGakbOyQWFf774MAtJIeNXYd4BUsDeYsznTtMSrG1ETHjlYTEuqr+Hav0500EIbCqDVEAlrCtype1rx9GmUpuBS2IfT16RHT5YyVzmWHwr5qAyBVbo7jBYZZat8LCuw/VC2i7l8qb1Wvcwyl7OaJoRnmcZZv7J9YRrulwiP6wvIXoNB6xMEULC4T5ETm5Ax8qo/L2hCLvpbtcWsO0f0lMZSYVoh56qsEWZ/eh5IXWuKdGpiK1oxMmW2RN6bz+UK2w+3rZJSmdYn2VvViRGAwL&lt;/div&gt;
+&lt;div id="encr" style="display: none;"&gt;f7ejQ1rJqb4nHfdvahqles8rLLaPG6KlvAqvBbKGVXHPXi2OerVDSOkImEyAVh1EMpBPgrHXnzetCcFpabH0yhjPEEoyHsOUC6qxUZugZRPxMIsArdAF6HRoyvUyAgIIUmNgbdBklajJW2VvhlZNi5PYxHLQI885BKKLOVKV6lWOJA7j+FOyiM+Uz2bS6w1ZgEHOla0FkV5W0FxIdXp5F5TSvnUxaxn+93E37YXJc7PuXRAT07Xvpv6Aai5vlhIbYusLHo4Qi0TNT3sQ2fjNyqd4zfOk0pUYKhR5CAX9Lrs6gSr+ewOFk0zF1L0EMM2r7nKfM4bmMCjEVcoXoAdL8J3aSAVFMuiacrxu3RpvTB/Y22lqGi0nAvXaiCx3G8PPd78oD8Yxz4B2iW9Y1Y2o89SaipJnT64rywQxhIscYiek4l6lBrhWjsBUqMGddJ3324Fk9sHP0+vKm9QcrnARXFxV9cMnvIlXJixlysG6b3OAmdYCDYbycU4DmaTMrFdkzicqamYBtlCZcn50k6zsiDsy3H190LZge9OAh10aVkGevH7HAAAeotP9/ioV0rUTW2FoNmd1r8tN/erapjAhfRpVySSSomtHEb0VMyZWRor57dk6d4vDEoh4TGoHf5x9lTtPSrO0G2fJl4TEuaSkFbHp5wNFZ6u5T24A2+qkzd3W8h8P42ZgHDKEfzY0fTWhTmtyxC30seLZyFkepbTKOZRXrdfR9U2fEmvs0MeLl2vVzml5faMvXSqcZZ2wPcEM4opKssngqcnHfFimM0BZWIXnABS8WG02nPehszzypKUdbMu5O2NQc3kj+j5zucwAOZC1+onL/8R7tjmooEB7WT8co77jTuvptX3bcnvbYWzOsFjDPx1ZA5ngK/R7Na+MuWtlwT74JsUnPPR3yxP7N3is2GLLTwS6bYSa2fKm3u04a306Vm8UQMDQSoU7T0XEgQz+lBkScNXoX0cIqJGzQe3JNfXrAhrG1u5WyZ9yt+kvhodbUXx8b3Bm2HZQ+6C1WCGqdvkXLIuy3LHViyBiZRhCg8CTftoVx/wmr2AkFog5E6zzUn8iqiIZ7V3/dTrRi+k+XLxGupb+Aerd7RqAfGjI5th7I+eg8AVaTQmYGllcGzqRF90FVi3h6IQ8YEqn+j1yJDmUjl+fogK99TkquQvCAwB7g43tUSnzzZr1TUw8l4nv5A9hmEVvQWskdW77r4lxezYx&lt;/div&gt;
 &lt;div id="pwform"&gt;
 &lt;form onsubmit="javascript:decrypt(); return false;" class="form-inline"&gt;
 &lt;fieldset&gt;
 &lt;legend&gt;This post is password-protected.&lt;/legend&gt;
+&lt;div class="form-group"&gt;
 &lt;input type="password" id="key" placeholder="Type password here"&gt;
 &lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
+&lt;/div&gt;
 &lt;/fieldset&gt;
 &lt;/form&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>https://thestrawh8.netlify.com/posts/prioritized-links-collection.html</guid><pubDate>Tue, 23 Jan 2018 16:33:42 GMT</pubDate></item><item><title>Audio Drivers Installion</title><link>https://thestrawh8.netlify.com/posts/audiodrivers_installation.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Temporary Adjustment&lt;/h3&gt;
-&lt;p&gt;It has been that there is a requirement of 4.11 kernel version for Realtek-ALC1220 to support. So if you too built a your new PC like me then it might be helpful to you for temporary replacement. Uninstall your alsa-base and reinstall latest version it will work fine.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get remove alsa-base
-&lt;/pre&gt;
-
-
-&lt;p&gt;Now go to http://www.stchman.com/tools/alsa/alsa_setup.sh and download the script and then do&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo ./alsa_setup.sh
-&lt;/pre&gt;
-
-
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/audiodrivers_installation.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Audio driver</category><guid>https://thestrawh8.netlify.com/posts/audiodrivers_installation.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Collection of Doubts</title><link>https://thestrawh8.netlify.com/posts/doubts_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Dive into my sea of questions&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Pointer operation on a struct in C++ (How are the memory chunks assigned to the struct variable).&lt;/li&gt;
-&lt;li&gt;Working and Applications of Minimum Spanning Tree.&lt;/li&gt;
-&lt;li&gt;Why is Clique an NP Problem ?
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/doubts_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Doubts</category><guid>https://thestrawh8.netlify.com/posts/doubts_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Competitive Programming Trajectory</title><link>https://thestrawh8.netlify.com/posts/programming_practice.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Leet Code&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Problem : 617 - "Merge Two Binary Trees"&lt;/strong&gt;&lt;/li&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Ideas</category><guid>https://thestrawh8.netlify.com/posts/ideas_collection.html</guid><pubDate>Tue, 06 Feb 2018 11:38:00 GMT</pubDate></item><item><title>Competitive Programming Trajectory</title><link>https://thestrawh8.netlify.com/posts/programming_practice.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Merge Two Binary Trees&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Solution&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 &lt;span class="k"&gt;public&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
@@ -89,47 +74,87 @@ function decrypt() {
 &lt;/pre&gt;
 
 
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/programming_practice.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Practice</category><category>Programming</category><guid>https://thestrawh8.netlify.com/posts/programming_practice.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Computer Vision or Computer Graphics Courses&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;http://vision.stanford.edu/teaching/cs131_fall1617/&lt;/li&gt;
-&lt;li&gt;http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html&lt;/li&gt;
-&lt;li&gt;http://web.stanford.edu/class/cs231a/course_notes.html&lt;/li&gt;
-&lt;li&gt;https://cs.brown.edu/courses/csci1430/&lt;/li&gt;
-&lt;li&gt;http://www.cc.gatech.edu/~hays/compvision/
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/computer_vision_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Computer Vision</category><guid>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Deep Learning Setup</title><link>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Specifications&lt;/h3&gt;
-&lt;p&gt;Installation of Deep Learning Setup ( Hybrid Graphics / Optimus Systems) =&amp;gt; Ubuntu 16.04 + Nvidia(Driver+CUDA) + OpenCV3.2 + Caffe with specifications =&amp;gt; GTX1070-Nvidia + i7-7700K ( Kabylake)&lt;/p&gt;
-&lt;h4&gt;After fresh installation of Ubuntu 16.04 "Disabling nouveau driver"&lt;/h4&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get update
-sudo apt-get upgrade
-&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/programming_practice.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Practice</category><category>Programming</category><guid>https://thestrawh8.netlify.com/posts/programming_practice.html</guid><pubDate>Tue, 06 Feb 2018 10:36:00 GMT</pubDate></item><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs131_fall1617/"&gt;CS131@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html"&gt;CS231@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://web.stanford.edu/class/cs231a/course_notes.html"&gt;CS231a@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cs.brown.edu/courses/csci1430/"&gt;CV@Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cc.gatech.edu/~hays/compvision/"&gt;CV@Gatech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://courses.engr.illinois.edu/cs543/sp2015/"&gt;CS543@UIUC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www-inst.eecs.berkeley.edu/~cs280/sp15/index.html"&gt;CS280@Berkely&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cs.nyu.edu/~fergus/teaching/vision/"&gt;CV@NYU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://canvas.instructure.com/courses/904706"&gt;CV@Cornell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs231b_spring1213/slides/"&gt;CS231b@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><category>Computer Vision</category><guid>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</guid><pubDate>Wed, 24 Jan 2018 13:48:00 GMT</pubDate></item><item><title>Prioritized Links Collection</title><link>https://thestrawh8.netlify.com/posts/prioritized-links-collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i &lt; 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i &lt; 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y &lt; str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "&lt;!--tail--&gt;"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+&lt;/script&gt;
 
-
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><category>Learning Thoery</category><guid>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://thestrawh8.netlify.com/posts/hacks_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Unsorted Collection&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.regular-expressions.info/quickstart.html"&gt;Detailed explanation of Regular Expressions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aerobatic.com/blog/password-protect-a-jekyll-site/"&gt;Password Protected jekyll website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.fluentcpp.com/"&gt;C++ STL Resource&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://coligo.io/create-url-shortener-with-node-express-mongo/"&gt;TinyURL Reference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://askubuntu.com/questions/156169/how-do-i-set-up-file-sharing-between-two-ubuntu-laptops-on-my-wireless-network"&gt;How to connect two Ubuntu systems in same network&lt;/a&gt;
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/hacks_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Hacks</category><guid>https://thestrawh8.netlify.com/posts/hacks_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Ideas Collection</title><link>https://thestrawh8.netlify.com/posts/ideas_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
-&lt;li&gt;Learn about Clang,LLVM, and importance of Compilers and their usage &lt;a href="https://www.quora.com/Who-are-some-of-the-IIT-alumni-who-have-really-made-a-mark-in-the-world/answer/Simmi-Mourya-2?srid=3lyQY"&gt;&lt;code&gt;Resource Link&lt;/code&gt; - Thanks to Simmi Mourya for her answer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Some shared file in-order to share between systems connected in same network for home pc's&lt;/li&gt;
-&lt;li&gt;Script to create a mapping between the folders and the set of words inside the pdf's to sort your reading material&lt;/li&gt;
-&lt;li&gt;Identifying Table in a image and converting into a table
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/ideas_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><category>Ideas</category><guid>https://thestrawh8.netlify.com/posts/ideas_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>Learning Theory Collection</title><link>https://thestrawh8.netlify.com/posts/learningtheory_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Deep Learning Collection&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;[Deep Learning(CV) Algorithms Implementation Collection]&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;div id="encr" style="display: none;"&gt;f7ejQ1rJqb4nHfdvahqles8rLLaPG+uwvFKvBevLVyrVQSiOfL5bSMATmwiXTxEHMtBhqs/7wS/hJokiQZTM1k+MRxkeFoCHCrG8eJaxb0zqIYIBsolr6mB+3L1zb08qT2Q4adwggPyDFyw821ZAmviK22yLbYFKBb2DNkL67VSILVXh5Q6glMKZhjTS9S8uwRDv3+5JvR9Z1lpJIRtWHJrOsC0VSjyTmD4674SKbrfxXBFH0KKsgK2Obm8MqgUOe+IdGpxCgxaGDjFEk/3W1Ng3wP3/0ttZfFozAlHhTPMimC6COx6F3E/B0OECJ4yk6zCXepumeCPDHtUA+QZFvsHbRxNFaqSXcqYphi4qRhPKwSxGJUEBI7bupRojCMKdZ/FhEtQsw9JxgnwPyJqwttOHm9pqUv9hikpujJRJc0HxsD2nVrBItdFDp4zLPJ3si9g5vMHcxKrc2tVTqWkTW0gW/8k/qp5BZm9+ztH3a3WN09YUC4nfeklXmL7Mp2puzmI2JycYvQmPZDh4j7rrjzthiitLmK90b5XT5k4UBEWQoi2UWQwEpYH8/mse1ftUN2loMGxuqM0BoKvS70FbNR9RnheXs2xcFvsKNToRNbvp+tAxI4vMXskcQGQPa5AymnVmC7uyG3aQypGT6+zoFeGXtE9NeeO5DWoXgqP1houougNc8gB6GynPcSB0fHj2JC5w0GHv4vzV315av66IH/lhgI6HuWfXGn6g1Zje1DyP5mt7JfcUVGOGZ4T+PZgg4MRZssn7pfjXaR2iKFoWesq2Sgv1JQh/gu36zmbn9fRTdMvkERwXY2Zu5k8y9cEEItztpN4=&lt;/div&gt;
+&lt;div id="pwform"&gt;
+&lt;form onsubmit="javascript:decrypt(); return false;" class="form-inline"&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;This post is password-protected.&lt;/legend&gt;
+&lt;div class="form-group"&gt;
+&lt;input type="password" id="key" placeholder="Type password here"&gt;
+&lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Bandits</category><category>Reinforcement Learning</category><guid>https://thestrawh8.netlify.com/posts/prioritized-links-collection.html</guid><pubDate>Tue, 23 Jan 2018 11:03:00 GMT</pubDate></item><item><title>Collection of Doubts</title><link>https://thestrawh8.netlify.com/posts/doubts_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;Pointer operation on a struct in C++ (How are the memory chunks assigned to the struct variable).&lt;/li&gt;
+&lt;li&gt;Working and Applications of Minimum Spanning Tree.&lt;/li&gt;
+&lt;li&gt;Why is Clique an NP Problem ?&lt;/li&gt;
+&lt;li&gt;Why is the atmost number of comparisons required for both minimum and maximum is 3n/2&lt;/li&gt;
+&lt;li&gt;Why does the worst case running time of heapify occur when the bottom lead nodes in a heap are only hald filled ? &lt;/li&gt;
+&lt;li&gt;What is Chernoff Bound? &lt;/li&gt;
+&lt;li&gt;Go Through Linear Discriminant Analysis&lt;/li&gt;
+&lt;/ul&gt;</description><category>Doubts</category><guid>https://thestrawh8.netlify.com/posts/doubts_collection.html</guid><pubDate>Mon, 22 Jan 2018 11:16:00 GMT</pubDate></item><item><title>Learning Theory Collection</title><link>https://thestrawh8.netlify.com/posts/learningtheory_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
 &lt;li&gt;&lt;a href="http://hi.cs.waseda.ac.jp/~esimo/en/links/"&gt;Edgar Simo-Serra's Collection&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;[Covers Convolutional + Variational Methods]&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/joanbruna/stat212b"&gt;Joan Bruana's Statistical Approach of CNN's&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/joanbruna/infrep17"&gt;Joan Bruana's Foundations for Inference Approach&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/lecture-notes/"&gt;MIT's Algos for Inference Course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;David Barber &amp;amp; Michael Jordan's Books&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;Algorithms in Reinforcmeent Learning by Csaba Szepesvari&lt;/a&gt;
-&lt;/p&gt;&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Learning Thoery</category><category>Resources</category><guid>https://thestrawh8.netlify.com/posts/learningtheory_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item><item><title>List of Conferences in Target</title><link>https://thestrawh8.netlify.com/posts/conferences_list.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
+&lt;li&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;Algorithms in Reinforcmeent Learning by Csaba Szepesvari&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/proximacent/deep-learning"&gt;1st best Collection of Deep Learning Papers in Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/terryum/awesome-deep-learning-papers/"&gt;2nd best Collection of Deep Learning Papers in Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;Paper Spray&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.csml.ucl.ac.uk/events/series/22"&gt;UCL's Collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stat.cmu.edu/~ryantibs/statml/"&gt;Statistical ML course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html"&gt;David Silver's RL&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/learningtheory_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><category>Learning Thoery</category><category>Resources</category><guid>https://thestrawh8.netlify.com/posts/learningtheory_collection.html</guid><pubDate>Sun, 21 Jan 2018 06:39:00 GMT</pubDate></item><item><title>List of Conferences in Target</title><link>https://thestrawh8.netlify.com/posts/conferences_list.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
 function rc4(key, str) {
     var s = [], j = 0, x, res = '';
     for (var i = 0; i &lt; 256; i++) {
@@ -171,8 +196,34 @@ function decrypt() {
 &lt;form onsubmit="javascript:decrypt(); return false;" class="form-inline"&gt;
 &lt;fieldset&gt;
 &lt;legend&gt;This post is password-protected.&lt;/legend&gt;
+&lt;div class="form-group"&gt;
 &lt;input type="password" id="key" placeholder="Type password here"&gt;
 &lt;button type="submit" class="btn"&gt;Show Content&lt;/button&gt;
+&lt;/div&gt;
 &lt;/fieldset&gt;
 &lt;/form&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>Conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>Conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 06:36:00 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://thestrawh8.netlify.com/posts/hacks_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.regular-expressions.info/quickstart.html"&gt;Detailed explanation of Regular Expressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.aerobatic.com/blog/password-protect-a-jekyll-site/"&gt;Password Protected jekyll website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fluentcpp.com/"&gt;C++ STL Resource&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://coligo.io/create-url-shortener-with-node-express-mongo/"&gt;TinyURL Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://askubuntu.com/questions/156169/how-do-i-set-up-file-sharing-between-two-ubuntu-laptops-on-my-wireless-network"&gt;How to connect two Ubuntu systems in same network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><category>Hacks</category><guid>https://thestrawh8.netlify.com/posts/hacks_collection.html</guid><pubDate>Thu, 21 Dec 2017 11:36:00 GMT</pubDate></item><item><title>Collection of Readings</title><link>https://thestrawh8.netlify.com/posts/mathematics_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h4&gt;Books to Read&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Randoimized Algorithms by Rajeev Motwani.&lt;/li&gt;
+&lt;li&gt;Data Structures and Network algorithms by Tarjan.&lt;/li&gt;
+&lt;li&gt;Convex Optimization by Stephen Boyd.&lt;/li&gt;
+&lt;li&gt;Reinforcement Learning by Csaba Szepesvari&lt;/li&gt;
+&lt;li&gt;Deep Learning Book by &lt;/li&gt;
+&lt;li&gt;Approximation Algorithms by V.Vazirani&lt;/li&gt;
+&lt;li&gt;Reinhard Diestel's Graph Theory&lt;/li&gt;
+&lt;li&gt;The Probablistic Graphical Models by Daphielene Koller.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.esi2.us.es/~mbilbao/pdffiles/DiestelGT.pdf"&gt;Diestel's Graph Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://home.ku.edu.tr/mudogan/public_html/Introduction%20to%20Graph%20Theory%202E%20-%20West.pdf"&gt;Douglous B west's Graph Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.iro.umontreal.ca/~hahn/IFT3545/GTWA.pdf"&gt;J.A.Bondy &amp;amp; U.S.R Murthy&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/mathematics_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Algorithms</category><category>Graph Thoery</category><category>Mathematics</category><guid>https://thestrawh8.netlify.com/posts/mathematics_collection.html</guid><pubDate>Tue, 05 Dec 2017 07:00:00 GMT</pubDate></item><item><title>Programming Problems Collection</title><link>https://thestrawh8.netlify.com/posts/programming_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;Complete all the problems under Algorithms Module in Leet Code.&lt;/li&gt;
+&lt;li&gt;Complete working on different kinds of problems in SPOJ&lt;/li&gt;
+&lt;li&gt;Practice and Compete in Codeforces and Topcoder.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.commonlounge.com/discussion/57ce5846138346b9a5ae6bf295d47c93/main"&gt;Commonlounge&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/programming_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><category>Practice</category><category>Programming</category><guid>https://thestrawh8.netlify.com/posts/programming_collection.html</guid><pubDate>Tue, 05 Dec 2017 06:36:00 GMT</pubDate></item></channel></rss>

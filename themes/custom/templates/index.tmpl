@@ -27,13 +27,13 @@
 
 <div class="col-md-3">
     <div class="card mb-3" style="margin-bottom: 1rem;">
-      <h3 class="card-header" style="margin-top: 0;text-align:  center;">strawh8</h3>
+      <h3 class="card-header" style="margin-top: 0;text-align:  center;">Random Dots</h3>
       <div class="card-body">
-        <h6 class="card-subtitle text-muted"> "I will sail all the seas"</h6>
+        <h6 class="card-subtitle text-muted"> "Life's simple when you keep it simple"</h6>
     </div>
     <img style="max-width: 100%; display: block;" src="/images/luffy.jpg" alt="Card image">
     <div class="card-footer text-muted">
-        Last Update: 22-1-2018
+        Last Update: ${posts[0].formatted_date(date_format)|h}
     </div>
 </div>
 <ul class="list-group">
@@ -103,13 +103,13 @@
     <header>
         <h1 class="p-name entry-title"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h1>
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+            <!-- <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
             % if author_pages_generated:
                 <a href="${_link('author', post.author())}">${post.author()|h}</a>
             % else:
                 ${post.author()|h}
             % endif
-            </span></p>
+            </span></p> -->
             <p class="dateline"><a href="${post.permalink()}" rel="bookmark"><time class="published dt-published" datetime="${post.formatted_date('webiso')}" title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time></a></p>
             % if not post.meta('nocomments') and site_has_comments:
                 <p class="commentline">${comments.comment_link(post.permalink(), post._base_path)}

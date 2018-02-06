@@ -1,7 +1,7 @@
 
 .. title: Collection of Readings
 .. slug: 
-.. date: 2017-12-05 12:06:09 UTC
+.. date: 2017-12-05 12:30
 .. tags: Algorithms, Mathematics, Graph Thoery 
 .. category: Collection
 .. link: 
@@ -17,12 +17,11 @@
 * Deep Learning Book by 
 * Approximation Algorithms by V.Vazirani
 * Reinhard Diestel's Graph Theory
-<!-- TEASER_END -->
 * The Probablistic Graphical Models by Daphielene Koller.
-* Diestel - http://www.esi2.us.es/~mbilbao/pdffiles/DiestelGT.pdf
-* Douglous B west - http://home.ku.edu.tr/mudogan/public_html/Introduction%20to%20Graph%20Theory%202E%20-%20West.pdf
-* J.A.Bondy & U.S.R Murthy - https://www.iro.umontreal.ca/~hahn/IFT3545/GTWA.pdf
-
+* [Diestel's Graph Theory](http://www.esi2.us.es/~mbilbao/pdffiles/DiestelGT.pdf)
+* [Douglous B west's Graph Theory](http://home.ku.edu.tr/mudogan/public_html/Introduction%20to%20Graph%20Theory%202E%20-%20West.pdf)
+* [J.A.Bondy & U.S.R Murthy](https://www.iro.umontreal.ca/~hahn/IFT3545/GTWA.pdf)
+<!-- TEASER_END -->
 
 ### Books Completed Reading
 
@@ -33,14 +32,14 @@
 
 * Algorithms in Reinforcement Learning
 * Deep Learning book - Ian Good Fellow, Yoshua Bengio
-* http://people.csail.mit.edu/moitra/854.html
-* http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html
-* http://www.cs.princeton.edu/courses/archive/fall15/cos521/
-* http://courses.cms.caltech.edu/cs139/
-* http://web.stanford.edu/class/cs168/index.html
-* http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15859-f11/www/
-* https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/
-* http://courses.csail.mit.edu/6.851/fall17/ 
+* [Ankur Moitra's Course](http://people.csail.mit.edu/moitra/854.html)
+* [CS224@Harvard](http://people.seas.harvard.edu/~minilek/cs224/fall14/lec.html)
+* [Arora's Course](http://www.cs.princeton.edu/courses/archive/fall15/cos521/)
+* [CS139@Caltech](http://courses.cms.caltech.edu/cs139/)
+* [CS168@Stanford](http://web.stanford.edu/class/cs168/index.html)
+* [Advanced Algos@CMU](http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15859-f11/www/)
+* [Advanced Algos@MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2008/)
+* [Erik Demaine's Course](http://courses.csail.mit.edu/6.851/fall17/)
 
 ### Pending Topics
 
@@ -49,29 +48,15 @@
 * Open Data Structures C++ 
  
 
-### Mathematics
+### Interesting Math Links Collections
 
-`Blogs & Links`
+* [Group Theory in Physics](http://personalpages.to.infn.it/~billo/)
+* [Peter Woit's Blog]http://www.math.columbia.edu/~woit/wordpress/?p=8450
+* [Differential Geometry@Stanford](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html)
+* [Random Mathematical Discussions](https://www.dpmms.cam.ac.uk/~wtg10/mathsindex.html)
+* [John Baez's Stuff](http://www.math.ucr.edu/home/baez/README.html)
+* [Tom Davis's Site](http://www.geometer.org/mathcircles/)
+* [Mathematical Problems Collection](http://artofproblemsolving.com/wiki/index.php?title=Resources_for_mathematics_competitions#Free)
+* [Math Forum](http://mathforum.org/)
 
-* https://www.revolvy.com/main/index.php?s=List%20of%20theorems&uid=1575
-* http://nuit-blanche.blogspot.in/2016/10/input-convex-neural-networks.html
-* http://personalpages.to.infn.it/~billo/
-* http://www.math.columbia.edu/~woit/wordpress/?p=8450
-* http://math.stanford.edu/~conrad/diffgeomPage/handouts.html
-* https://gowers.wordpress.com/2007/09/
-* http://www.scottaaronson.com/blog/?m=200510
-* https://www.dpmms.cam.ac.uk/~wtg10/mathsindex.html
-* http://www.math.ucr.edu/home/baez/README.html
-* https://jeremykun.com/primers/
-* https://terrytao.wordpress.com/
-* http://www.geometer.org/mathcircles/
-* http://artofproblemsolving.com/wiki/index.php?title=Resources_for_mathematics_competitions#Free
-* http://mathforum.org/
-
-`Problems`
-
-* https://www.expii.com/solve
-* http://www.cut-the-knot.org/
-* https://brilliant.org/
-* https://artofproblemsolving.com/community/c89
 

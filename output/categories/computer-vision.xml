@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Computer Vision)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/computer-vision.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 Jan 2018 12:34:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Computer Vision or Computer Graphics Courses&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;http://vision.stanford.edu/teaching/cs131_fall1617/&lt;/li&gt;
-&lt;li&gt;http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html&lt;/li&gt;
-&lt;li&gt;http://web.stanford.edu/class/cs231a/course_notes.html&lt;/li&gt;
-&lt;li&gt;https://cs.brown.edu/courses/csci1430/&lt;/li&gt;
-&lt;li&gt;http://www.cc.gatech.edu/~hays/compvision/
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/computer_vision_collection.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><category>Computer Vision</category><guid>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</guid><pubDate>Sun, 21 Jan 2018 12:06:09 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Computer Vision)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/computer-vision.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 06 Feb 2018 11:39:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Computer Vision Collection</title><link>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs131_fall1617/"&gt;CS131@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs231n/2017/syllabus.html"&gt;CS231@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://web.stanford.edu/class/cs231a/course_notes.html"&gt;CS231a@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cs.brown.edu/courses/csci1430/"&gt;CV@Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cc.gatech.edu/~hays/compvision/"&gt;CV@Gatech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://courses.engr.illinois.edu/cs543/sp2015/"&gt;CS543@UIUC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www-inst.eecs.berkeley.edu/~cs280/sp15/index.html"&gt;CS280@Berkely&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cs.nyu.edu/~fergus/teaching/vision/"&gt;CV@NYU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://canvas.instructure.com/courses/904706"&gt;CV@Cornell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vision.stanford.edu/teaching/cs231b_spring1213/slides/"&gt;CS231b@Stanford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><category>Computer Vision</category><guid>https://thestrawh8.netlify.com/posts/computer_vision_collection.html</guid><pubDate>Wed, 24 Jan 2018 13:48:00 GMT</pubDate></item></channel></rss>

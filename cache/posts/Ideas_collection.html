@@ -1,11 +1,49 @@
-<ul>
-<li>Learn about Clang,LLVM, and importance of Compilers and their usage <a href="https://www.quora.com/Who-are-some-of-the-IIT-alumni-who-have-really-made-a-mark-in-the-world/answer/Simmi-Mourya-2?srid=3lyQY"><code>Resource Link</code> - Thanks to Simmi Mourya for her answer</a></li>
-<li>Some shared file in-order to share between systems connected in same network for home pc's</li>
-<li>Script to create a mapping between the folders and the set of words inside the pdf's to sort your reading material</li>
-<li>Identifying Table in a image and converting into a table
-<!-- TEASER_END --></li>
-<li>Implement 3D face real-time enactment including the lip sync with the voice.</li>
-<li>Automatic Chess Player using Reinforcement Learning.</li>
-<li>Practical implementation of Projects on SVM's,KNN,Decision Trees,Random Forests,Naive Bayes,RBM's,DBN's,RNN,LSTM,CNN,GMM,HMM (Novice to Advanced Algos).</li>
-<li>Automatically filling the space effectively with rectangles  present.</li>
-</ul>
+<script>
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i < 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i < 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y < str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "<!--tail-->"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+</script>
+
+<div id="encr" style="display: none;">f7ejQ1rJqb4nHfdvahqles8rLLaPG6KlvAqvBbKGVXHPXi2OerVDSOkImEyAVh1EMpBPgrHXnzetCcFpabH0yhjPEEoyHsOUC6qxUZugZRPxMIsArdAF6HRoyvUyAgIIUmNgbdBklajJW2VvhlZNi5PYxHLQI885BKKLOVKV6lWOJA7j+FOyiM+Uz2bS6w1ZgEHOla0FkV5W0FxIdXp5F5TSvnUxaxn+93E37YXJc7PuXRAT07Xvpv6Aai5vlhIbYusLHo4Qi0TNT3sQ2fjNyqd4zfOk0pUYKhR5CAX9Lrs6gSr+ewOFk0zF1L0EMM2r7nKfM4bmMCjEVcoXoAdL8J3aSAVFMuiacrxu3RpvTB/Y22lqGi0nAvXaiCx3G8PPd78oD8Yxz4B2iW9Y1Y2o89SaipJnT64rywQxhIscYiek4l6lBrhWjsBUqMGddJ3324Fk9sHP0+vKm9QcrnARXFxV9cMnvIlXJixlysG6b3OAmdYCDYbycU4DmaTMrFdkzicqamYBtlCZcn50k6zsiDsy3H190LZge9OAh10aVkGevH7HAAAeotP9/ioV0rUTW2FoNmd1r8tN/erapjAhfRpVySSSomtHEb0VMyZWRor57dk6d4vDEoh4TGoHf5x9lTtPSrO0G2fJl4TEuaSkFbHp5wNFZ6u5T24A2+qkzd3W8h8P42ZgHDKEfzY0fTWhTmtyxC30seLZyFkepbTKOZRXrdfR9U2fEmvs0MeLl2vVzml5faMvXSqcZZ2wPcEM4opKssngqcnHfFimM0BZWIXnABS8WG02nPehszzypKUdbMu5O2NQc3kj+j5zucwAOZC1+onL/8R7tjmooEB7WT8co77jTuvptX3bcnvbYWzOsFjDPx1ZA5ngK/R7Na+MuWtlwT74JsUnPPR3yxP7N3is2GLLTwS6bYSa2fKm3u04a306Vm8UQMDQSoU7T0XEgQz+lBkScNXoX0cIqJGzQe3JNfXrAhrG1u5WyZ9yt+kvhodbUXx8b3Bm2HZQ+6C1WCGqdvkXLIuy3LHViyBiZRhCg8CTftoVx/wmr2AkFog5E6zzUn8iqiIZ7V3/dTrRi+k+XLxGupb+Aerd7RqAfGjI5th7I+eg8AVaTQmYGllcGzqRF90FVi3h6IQ8YEqn+j1yJDmUjl+fogK99TkquQvCAwB7g43tUSnzzZr1TUw8l4nv5A9hmEVvQWskdW77r4lxezYx</div>
+<div id="pwform">
+<form onsubmit="javascript:decrypt(); return false;" class="form-inline">
+<fieldset>
+<legend>This post is password-protected.</legend>
+<div class="form-group">
+<input type="password" id="key" placeholder="Type password here">
+<button type="submit" class="btn">Show Content</button>
+</div>
+</fieldset>
+</form>
+</div>

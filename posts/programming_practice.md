@@ -1,16 +1,15 @@
 
 .. title: Competitive Programming Trajectory
 .. slug: 
-.. date: 2018-01-21 12:06:09 UTC
+.. date: 2018-02-06 16:06 
 .. tags: Programming, Practice
 .. category: Solutions
 .. link: 
 .. description: 
 .. type: text
 
-## Leet Code
 
-* **Problem : 617 - "Merge Two Binary Trees"**
+* **Merge Two Binary Trees**
 
 ```c++
 class Solution {
@@ -36,7 +35,7 @@ public:
 };
 ```
 <!-- TEASER_END -->
-* **Problem : 557 - "Reverse words in a String"**
+* **Reverse words in a String**
 
 Learned about input stringstream have to check soem more regarding stringstream operation.
 
@@ -58,7 +57,7 @@ public:
 };
 ```
 
-* **Problem : 535 - "Encode and Decode TinyURL"**
+* **Encode and Decode TinyURL**
 
 Learned about find operation in unordered::map container it returns an `const_iterator` which points to the given key. If the map doesn't have the key then it will return `map.end()`.
 
