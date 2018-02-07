@@ -3,10 +3,11 @@
 .. slug: handling-lonliness
 .. date: 2018-02-07 11:28:01 UTC+05:30
 .. tags: 
-.. category: 
+.. category: Personal
 .. link: 
 .. description: 
 .. type: text
+.. password: hasanth
 
 
 > Assumptions before proceeding to the essay
