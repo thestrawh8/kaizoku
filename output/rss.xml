@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would like to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 12 Feb 2018 10:08:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Small Circle of My Life</title><link>https://thestrawh8.netlify.com/posts/handling-lonliness.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots</title><link>https://thestrawh8.netlify.com/</link><description>I would like to use this as a platform to learn from and share with people.</description><atom:link href="https://thestrawh8.netlify.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 12 Feb 2018 16:44:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Principles of Life and similarities with Lord Shiva</title><link>https://thestrawh8.netlify.com/posts/principles-of-life-and-similarities-with-lord-shiva.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="Shiva" height="50%" src="https://thestrawh8.netlify.com/images/2.jpg" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shiva's characteristics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Shiva is often shown with many faces, as creator, destroyer and preserver in total command of the cosmos.&lt;/li&gt;
+&lt;li&gt;He contains both good and evil. He is moody, free of inhibitions, easy to please, protector of the down trodden, and has the power to alter the laws of destiny&lt;/li&gt;
+&lt;li&gt;Lord Shiva is known as the God of mercy and kindness. He protects his devotees from all evil that are always around us.&lt;/li&gt;
+&lt;li&gt;Blue-necked (having consumed poison to save the world from destruction)
+&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/principles-of-life-and-similarities-with-lord-shiva.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>https://thestrawh8.netlify.com/posts/principles-of-life-and-similarities-with-lord-shiva.html</guid><pubDate>Mon, 12 Feb 2018 15:31:05 GMT</pubDate></item><item><title>Small Circle of My Life</title><link>https://thestrawh8.netlify.com/posts/handling-lonliness.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;script&gt;
 function rc4(key, str) {
     var s = [], j = 0, x, res = '';
     for (var i = 0; i &lt; 256; i++) {
@@ -250,10 +259,4 @@ function decrypt() {
 &lt;/div&gt;
 &lt;/fieldset&gt;
 &lt;/form&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>Conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 06:36:00 GMT</pubDate></item><item><title>Hacks Collection</title><link>https://thestrawh8.netlify.com/posts/hacks_collection.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.regular-expressions.info/quickstart.html"&gt;Detailed explanation of Regular Expressions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.aerobatic.com/blog/password-protect-a-jekyll-site/"&gt;Password Protected jekyll website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.fluentcpp.com/"&gt;C++ STL Resource&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://coligo.io/create-url-shortener-with-node-express-mongo/"&gt;TinyURL Reference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://askubuntu.com/questions/156169/how-do-i-set-up-file-sharing-between-two-ubuntu-laptops-on-my-wireless-network"&gt;How to connect two Ubuntu systems in same network&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><category>Hacks</category><guid>https://thestrawh8.netlify.com/posts/hacks_collection.html</guid><pubDate>Thu, 21 Dec 2017 11:36:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>Conferences</category><guid>https://thestrawh8.netlify.com/posts/conferences_list.html</guid><pubDate>Sun, 21 Jan 2018 06:36:00 GMT</pubDate></item></channel></rss>
