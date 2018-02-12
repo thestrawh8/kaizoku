@@ -82,3 +82,76 @@
     <span class="p">}</span>
 <span class="p">};</span>
 </pre>
+
+
+<blockquote>
+<p>Project Euler</p>
+</blockquote>
+<ul>
+<li><strong> Multiples of 3 &amp; 5 below 1000 </strong></li>
+</ul>
+<p>Time taken: 0.00006s</p>
+<pre class="code literal-block"><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;time.h&gt;</span><span class="cp"></span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">clock_t</span> <span class="n">tStart</span> <span class="o">=</span> <span class="n">clock</span><span class="p">();</span>
+    <span class="kt">int</span> <span class="n">multiple_3</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">multiple_5</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">multiple_15</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">sum</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">multiple_5</span> <span class="o">&lt;</span><span class="mi">1000</span><span class="p">){</span>
+        <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">+</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="n">multiple_5</span><span class="p">;</span>
+        <span class="n">multiple_3</span> <span class="o">=</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="mi">3</span><span class="p">;</span>
+        <span class="n">multiple_5</span> <span class="o">=</span> <span class="n">multiple_5</span> <span class="o">+</span> <span class="mi">5</span><span class="p">;</span>
+        <span class="c1">// multiple_5 = Multiple5(multiple_5);</span>
+    <span class="p">}</span>
+
+    <span class="k">while</span><span class="p">(</span><span class="n">multiple_3</span><span class="o">&lt;</span><span class="mi">1000</span><span class="p">){</span>
+        <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">+</span> <span class="n">multiple_3</span><span class="p">;</span>
+        <span class="n">multiple_3</span> <span class="o">=</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">multiple_15</span><span class="o">&lt;</span><span class="mi">1000</span><span class="p">){</span>
+        <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">-</span> <span class="n">multiple_15</span><span class="p">;</span>
+        <span class="n">multiple_15</span> <span class="o">=</span> <span class="n">multiple_15</span> <span class="o">+</span> <span class="mi">15</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">sum</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Time taken: %.5fs</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="n">clock</span><span class="p">()</span> <span class="o">-</span> <span class="n">tStart</span><span class="p">)</span><span class="o">/</span><span class="n">CLOCKS_PER_SEC</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span> 
+</pre>
+
+
+<p>My submission</p>
+<p>Time taken: 0.00007s</p>
+<pre class="code literal-block"><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;time.h&gt;</span><span class="cp"></span>
+
+
+<span class="kt">int</span> <span class="nf">Multiple5</span><span class="p">(</span><span class="kt">int</span> <span class="n">multiple_5</span><span class="p">){</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">multiple_5</span><span class="o">%</span><span class="mi">3</span><span class="o">==</span><span class="mi">0</span><span class="p">){</span>
+        <span class="n">multiple_5</span> <span class="o">=</span> <span class="n">multiple_5</span> <span class="o">+</span> <span class="mi">5</span><span class="p">;</span>
+        <span class="n">Multiple5</span><span class="p">(</span><span class="n">multiple_5</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+        <span class="k">return</span> <span class="n">multiple_5</span><span class="p">;</span>
+
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">clock_t</span> <span class="n">tStart</span> <span class="o">=</span> <span class="n">clock</span><span class="p">();</span>
+    <span class="kt">int</span> <span class="n">multiple_3</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">multiple_5</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">multiple_15</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">sum</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">multiple_5</span> <span class="o">&lt;</span><span class="mi">1000</span><span class="p">){</span>
+        <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">+</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="n">multiple_5</span><span class="p">;</span>
+        <span class="n">multiple_3</span> <span class="o">=</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="mi">3</span><span class="p">;</span>
+        <span class="n">multiple_5</span> <span class="o">=</span> <span class="n">multiple_5</span> <span class="o">+</span> <span class="mi">5</span><span class="p">;</span>
+        <span class="n">multiple_5</span> <span class="o">=</span> <span class="n">Multiple5</span><span class="p">(</span><span class="n">multiple_5</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">while</span><span class="p">(</span><span class="n">multiple_3</span><span class="o">&lt;</span><span class="mi">1000</span><span class="p">){</span>
+        <span class="n">sum</span> <span class="o">=</span> <span class="n">sum</span> <span class="o">+</span> <span class="n">multiple_3</span><span class="p">;</span>
+        <span class="n">multiple_3</span> <span class="o">=</span> <span class="n">multiple_3</span> <span class="o">+</span> <span class="mi">3</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">sum</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Time taken: %.5fs</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="n">clock</span><span class="p">()</span> <span class="o">-</span> <span class="n">tStart</span><span class="p">)</span><span class="o">/</span><span class="n">CLOCKS_PER_SEC</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>

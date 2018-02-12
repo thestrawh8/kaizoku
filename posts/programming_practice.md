@@ -1,5 +1,5 @@
 
-.. title: Competitive Programming Trajectory
+.. title: Programming Trajectory
 .. slug: 
 .. date: 2018-02-06 16:06 
 .. tags: Programming, Practice
@@ -92,3 +92,76 @@ public:
 };
 ```
 
+> Project Euler
+
+* ** Multiples of 3 & 5 below 1000 **
+
+Time taken: 0.00006s
+
+```c++
+#include <iostream>
+#include <time.h>
+
+int main(){
+    clock_t tStart = clock();
+    int multiple_3=0,multiple_5=0,multiple_15=0,i=0,sum=0;
+    while(multiple_5 <1000){
+        sum = sum + multiple_3 + multiple_5;
+        multiple_3 = multiple_3 + 3;
+        multiple_5 = multiple_5 + 5;
+        // multiple_5 = Multiple5(multiple_5);
+    }
+
+    while(multiple_3<1000){
+        sum = sum + multiple_3;
+        multiple_3 = multiple_3 + 3;
+    }
+    while(multiple_15<1000){
+        sum = sum - multiple_15;
+        multiple_15 = multiple_15 + 15;
+    }
+    std::cout << sum << '\n';
+    printf("Time taken: %.5fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+    return 0;
+} 
+```
+
+My submission
+
+Time taken: 0.00007s
+
+```c++
+#include <iostream>
+#include <time.h>
+
+
+int Multiple5(int multiple_5){
+    if (multiple_5%3==0){
+        multiple_5 = multiple_5 + 5;
+        Multiple5(multiple_5);
+    }
+    else
+        return multiple_5;
+    
+}
+
+int main(){
+    clock_t tStart = clock();
+    int multiple_3=0,multiple_5=0,multiple_15=0,i=0,sum=0;
+    while(multiple_5 <1000){
+        sum = sum + multiple_3 + multiple_5;
+        multiple_3 = multiple_3 + 3;
+        multiple_5 = multiple_5 + 5;
+        multiple_5 = Multiple5(multiple_5);
+    }
+
+    while(multiple_3<1000){
+        sum = sum + multiple_3;
+        multiple_3 = multiple_3 + 3;
+    }
+
+    std::cout << sum << '\n';
+    printf("Time taken: %.5fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+    return 0;
+}
+```
