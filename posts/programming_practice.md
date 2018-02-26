@@ -9,7 +9,7 @@
 .. type: text
 
 
-* **Merge Two Binary Trees**
+### Merge Two Binary Trees
 
 ```c++
 class Solution {
@@ -35,7 +35,7 @@ public:
 };
 ```
 <!-- TEASER_END -->
-* **Reverse words in a String**
+### Reverse words in a String
 
 Learned about input stringstream have to check soem more regarding stringstream operation.
 
@@ -57,7 +57,7 @@ public:
 };
 ```
 
-* **Encode and Decode TinyURL**
+### Encode and Decode TinyURL
 
 Learned about find operation in unordered::map container it returns an `const_iterator` which points to the given key. If the map doesn't have the key then it will return `map.end()`.
 
@@ -94,7 +94,7 @@ public:
 
 > Project Euler
 
-* ** Multiples of 3 & 5 below 1000 **
+### Multiples of 3 & 5 below 1000
 
 Time taken: 0.00006s
 
@@ -126,7 +126,7 @@ int main(){
 } 
 ```
 
-My submission
+### My submission
 
 Time taken: 0.00007s
 

@@ -816,7 +816,7 @@ INDEX_TEASERS = True
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" style="color: #1ec12d;">{reading_time} minute read…</a><a </p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" style="color: #1e65c1;">{reading_time} minute read…</a><a </p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
@@ -843,7 +843,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> {license} and Thanks to {references}'
+CONTENT_FOOTER = 'Contents &copy; {date} powered by Nikola {license} and Thanks to {references}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
