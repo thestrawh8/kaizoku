@@ -146,6 +146,10 @@
   <lastmod>2018-02-16T16:43:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://thestrawh8.netlify.com/categories/research.xml</loc>
+  <lastmod>2018-03-01T12:33:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://thestrawh8.netlify.com/categories/resources.xml</loc>
   <lastmod>2018-02-16T16:43:00Z</lastmod>
  </sitemap>
@@ -159,10 +163,10 @@
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/rss.xml</loc>
-  <lastmod>2018-03-01T11:41:00Z</lastmod>
+  <lastmod>2018-03-01T12:33:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://thestrawh8.netlify.com/sitemap.xml</loc>
-  <lastmod>2018-03-01T11:41:00Z</lastmod>
+  <lastmod>2018-03-01T12:33:00Z</lastmod>
  </sitemap>
 </sitemapindex>

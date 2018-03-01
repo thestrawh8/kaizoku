@@ -12,7 +12,7 @@
 <link rel="canonical" href="https://thestrawh8.netlify.com/index.html">
 <link rel="icon" href="images/favicon-32x32.png" sizes="32x32">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="assets/css/tipuesearch.css">
-<link rel="prefetch" href="posts/conversion-of-a-video-sequence-to-a-avatars-gifvideo-sequence.html" type="text/html">
+<link rel="prefetch" href="posts/understanding-the-max-planks-up-project.html" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -108,7 +108,7 @@
         <h6 class="card-subtitle text-muted"> "Life's simple when you keep it simple"</h6>
     </div>
     <img style="max-width: 100%; display: block;" src="images/luffy.jpg" alt="Card image"><div class="card-footer text-muted">
-        Last Update: 2018-03-01 16:30
+        Last Update: 2018-03-01 17:43
     </div>
 </div>
 <ul class="list-group">
@@ -176,7 +176,48 @@
 
 <div class="col-md-9">
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/conversion-of-a-video-sequence-to-a-avatars-gifvideo-sequence.html" class="u-url">Conversion of a video sequence to a Avatar's GIF/video sequence.</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/understanding-the-max-planks-up-project.html" class="u-url">Understanding the Max Plank's UP project.</a></h1>
+        <div class="metadata">
+            <!-- <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                thestrawh8
+            </span></p> -->
+            <p class="dateline"><a href="posts/understanding-the-max-planks-up-project.html" rel="bookmark"><time class="published dt-published" datetime="2018-03-01T17:43:52+05:30" title="2018-03-01 17:43">2018-03-01 17:43</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/understanding-the-max-planks-up-project.html#disqus_thread" data-disqus-identifier="cache/posts/understanding-the-max-planks-up-project.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>In this I would like to share the working of UP. When trying to read the paper I couldn't didn't get the things clearly but it is the same SMPLify concept which has been also taken up in many of Max Plank's design which is palying major role in all of these. They have designed a PCA model of complete bosy and giving the image as an input to the system they try to estimate the pose of the human in the image with a bound which is not explicitly mentioned but we find good results when the image satisfies the condition that the person covers below 500 pixels in the image. So using deeplab model they try to estimate the pose and also the keypoints either 14/91 based on the models you choose. This pose content is then used to estiamte the camera parameters and keypoints to optimize the model based on the keypoints skeleton using the SMPLify and again as usual the same reprojection error minimization concept is used to estimate the model. Thus we finally obtain a model shape which is similar to one's in the image. It has been mentioned in the paper that it almost works in 30fps which is really amazing.</p>
+<p>Below we can see original and the estimated model's image.</p>
+<p><img alt="Original image" height="25%" src="images/body.jpg" width="25%"><img alt="Reconstructed Image" height="25%" src="images/body_recon.png" width="25%"></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/playing-with-patrick-hubers-eos-and-explaining-how-it-is-not-going-to-support-our-pipeline.html" class="u-url">Playing with Patrick Huber's EOS and explaining how it is not going to support our pipeline</a></h1>
+        <div class="metadata">
+            <!-- <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                thestrawh8
+            </span></p> -->
+            <p class="dateline"><a href="posts/playing-with-patrick-hubers-eos-and-explaining-how-it-is-not-going-to-support-our-pipeline.html" rel="bookmark"><time class="published dt-published" datetime="2018-03-01T17:22:30+05:30" title="2018-03-01 17:22">2018-03-01 17:22</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/playing-with-patrick-hubers-eos-and-explaining-how-it-is-not-going-to-support-our-pipeline.html#disqus_thread" data-disqus-identifier="cache/posts/playing-with-patrick-hubers-eos-and-explaining-how-it-is-not-going-to-support-our-pipeline.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>Patrick's model is the only to truluy mention which has made the complete end to end process pipeline as opensource since this reconstruction of human faces has some market value as it has a capability to attract a good amount of people that might be the reason for less exposure of the code. Okay coming to partick's work it based on surrey model (University of Surrey).
+It can be said it is most possible simplest pipeline for 2D-3D reconstruction of human face by simplest I mean relatively because it uses a linear techniques in order to estimate. So basically using some landmark detector we try to detect the landmarks where patrick's implementation supports 68 ones I personally prefer the ibug one. Using the landmark file we try to estiamte the camera parameters and try to minimize the error between the 2D landmarks and the projected 3D landmarks usually we come across this technique in Sfm technique and also other 3D reconstruciton pipeline because it is the heart of reconstruction. Using the camera parameters and the surrey's PCA model and the landmark points they to estiamte the shape parameters and project the image onto the 3D face. Patrick is still continuing his work by making the implementaion compatible with Basel Face Model &amp; also trying to optimiza the parameters using Non linear implementations like Cerses Solver.
+</p>
+<p class="more"><a href="posts/playing-with-patrick-hubers-eos-and-explaining-how-it-is-not-going-to-support-our-pipeline.html" style="color: #1e65c1;">2 minute read…</a><a></a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/conversion-of-a-video-sequence-to-a-avatars-gifvideo-sequence.html" class="u-url">Conversion of a video sequence to a Avatar's GIF/video sequence.</a></h1>
         <div class="metadata">
             <!-- <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 thestrawh8
@@ -192,8 +233,8 @@
     </header><div class="p-summary entry-summary">
     <div>
 <p>Recently a lot research has been taking place in the region of combination of Computer Graphics &amp; Computer Vision areas and the standards are being expected to raise after apple's introduction of Iphone X which have cutdown a lot of efforts in coverting the 2D-3D mapping using its front camera which seems to project a huge number of IR rays to estimate the geometry of the human face but it is really hard for a normal person to afford such high costs so I myself being an Indian and want to make it available to the normal families to experience such high end technolgies which would build more passion towards learning have taken up this project as one of my most import project and am planning to work in parallel along with mathematical visualization of Machine Learning and its advancements. </p>
-<p>I would like to keep this as a log which will help me remember the flow of work which I have planned to implement this work. It has really taken a lot of time since I am all by myself if having any advisor would have made work a bit more easier since with their experience I probably would have been directed to this point, Since I first became aware of this 3D Face Reconstruction technology based on the works of Prof.Ira Kemelmacher - UW CSE, I was first trying to understand the Shape from Shading, Structure from Motion techniques since I being from an EE background never had a chance to take up an Computer Graphics course even though I had taken up Computer Vision course in my final semester I wasn't much interested at that point of time since my drive was always towards the mathematical concepts that have been entangled either be it Machine Learning / Computer Vision / Medical Imaging or anything i was just addicted to the understanding of concepts on my own since I felt I would lose the kick/joy which I would gain during learning it after reading pages after pages sadly I was into that buble I kept reading papers after papers even till today I am doing the same but I realisez it is the time to take some action instead of aiming for one big ball, I should first pick up the lego pieces and try to join once after the other. Sorry I have gone completely out of the topic coming back, Every time I try to think about this problem how to make the 2D-3D interaction in a way with lesser complexity and higher accessibility always diffrent combinations of pipelines pop up in my mind instead I have decided I should implement one at first then it would make me clear during the implementation process how to permute the blocks in the pipeleine.</p>
 <p><img alt="Flowchart" src="images/2d-3dflow.png"><!-- {:height="50%" width="50%"} --></p>
+<p class="more"><a href="posts/conversion-of-a-video-sequence-to-a-avatars-gifvideo-sequence.html" style="color: #1e65c1;">3 minute read…</a><a></a></p>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/the-speed-of-sequential-asymptotic.html" class="u-url">The Speed of Asymptotic Sequential Learning.</a></h1>
