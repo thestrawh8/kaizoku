@@ -136,7 +136,8 @@ NAVIGATION_LINKS = {
     	("/","Home"),
     	("/stories/academic.html","Academic"),
         ((("/archive.html", "Archives"),("/categories/index.html", "Tags")),"Blog"),
-        ((("/stories/dots.html","Projected Dots"),("/stories/chess.html","Chess"),("/stories/music.html","Luffy & Music"),("/stories/quotes.html","Quotes")),"Favourites"),
+        ((("/stories/dots.html","Projected Dots"),("/stories/music.html","Music")),"Manifold"),
+        ("/stories/quotes.html","Progress"),
         ("/stories/contact.html", "Contact")
     ),
 }
