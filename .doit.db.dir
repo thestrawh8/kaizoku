@@ -5,7 +5,7 @@
 'render_sources:output/stories/academic.src.html', (119296, 249)
 'render_taxonomies:output/categories/conferences.html', (474112, 2041)
 'copy_assets:output/assets/js/flowr.js', (995840, 759)
-'render_taxonomies:output/index.html', (1497088, 15956)
+'render_taxonomies:output/index.html', (1497088, 15957)
 'render_taxonomies:output/2018/01/23/index.html', (652800, 2453)
 'scale_images:output/images/luffy-0.png', (147968, 216)
 'copy_assets:output/assets/js/jquery.colorbox-min.js', (1007616, 838)
