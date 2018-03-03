@@ -4950,6 +4950,12 @@ a.label:focus {
   background-color: #3399f3;
   border-radius: 10px;
 }
+
+.badge-secondary {
+  color: #2d2d2d;
+  background-color: #e0e0e0;
+}
+
 .badge:empty {
   display: none;
 }
