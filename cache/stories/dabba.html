@@ -1,0 +1,47 @@
+<script>
+function rc4(key, str) {
+    var s = [], j = 0, x, res = '';
+    for (var i = 0; i < 256; i++) {
+        s[i] = i;
+    }
+    for (i = 0; i < 256; i++) {
+        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+    }
+    i = 0;
+    j = 0;
+    for (var y = 0; y < str.length; y++) {
+        i = (i + 1) % 256;
+        j = (j + s[i]) % 256;
+        x = s[i];
+        s[i] = s[j];
+        s[j] = x;
+        res += String.fromCharCode(str.charCodeAt(y) ^ s[(s[i] + s[j]) % 256]);
+    }
+    return res;
+}
+function decrypt() {
+    key = $("#key").val();
+    crypt_div = $("#encr")
+    crypted = crypt_div.html();
+    decrypted = rc4(key, window.atob(crypted));
+    if (decrypted.substr(decrypted.length - 11) == "<!--tail-->"){
+        crypt_div.html(decrypted);
+        $("#pwform").hide();
+        crypt_div.show();
+    } else { alert("Wrong password"); };
+}
+</script>
+
+<div id="encr" style="display: none;">N564THkMzuhpPPD+KyidP4cpBDtAvQU7vdXbRQjtwUnXADrn+9HX5dnA0s88iRdt/acPOdEhE+1aoaP/cEkJ79WtN2PfO5nNq+mUs/wx8LM1moemzAL9F5sVt094YV+x+wPJsLF7R1QH1nJLQc4RVfXjEYdP12NQwcGqnVgC1KBtQaHkUAoonUvG4VFGXUK50SLyhQT1dAb/5hmfEs62vTHR3hAPWr1ftZv2FBuK2VttiYNelMjOaIb0X6RJgAs2Uv5uAKbMx4jQunOKYK9wIp3nSWexSnS8Ev+HTGJwZjeRpwYgUqpQ4SjxHLIVmdn+RnokUCECDO74zD2iUcKVZuucHvUD71wHdwGz0YZloN5N5GJnLTbydGzzxitTq9UCsozbgX8SGnVOyjFwTYefzcNjIcSKgl9RYWWS1BHJoW/przvklXJkP9eS+hO78K1TM61165EOiKZBlWT0/ipGW7JjkpdG5KSulsMvTi8UboNkniMcJU2rOxZtUs4LpKpniIvGfqFrEbvcoFi75qQJV1Yi08AkAuMcY6yrxYmuyjIN+kgX6I/5HnOznKHxB9Z6DHt9/NFjMRmN8dyCchrX4W3Jtam4Mw9Xfq2AtqdynFqg4QwgyzOHJIwTKaWKv+j9sh5yAFii21sW0y+IeHUobvHRAzhU3cmGAsAuZLgsdoXqsAsKxBW8RXQFZPvAMzxy8ROrr8GyWrIGkj+NGZaYt4eiqB/8+JM7IOI+v9wpISR9+A5g4XpXhQZAyv4UkIWwii+KB6JTTspN1FCora2yJr4o0n53goAnGEjvi7eFUdLdelAqaHzwzPDOHZQgFvCFNspImgP02SlS6X9fJu8kLvthkZWjSaIO8+mgtkjNt3/fncrBDOvfPz+TvVrCahREczZvch1gGarpNsai/GVWVAnas+fGnEA8dl7LQ994yXVo2igCo0W51iFoLHKQZHqLAJlHifH1thkxxZGsLxrD</div>
+<div id="pwform">
+<form onsubmit="javascript:decrypt(); return false;" class="form-inline">
+<fieldset>
+<legend>This post is password-protected.</legend>
+<input type="password" id="key" placeholder="Type password here">
+<button type="submit" class="btn">Show Content</button>
+</fieldset>
+</form>
+</div>

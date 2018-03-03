@@ -37,22 +37,10 @@
       "url": "https://thestrawh8.netlify.com/posts/programming_practice.html"
     },
     {
-      "title": "Being Vasly Ivanchuk",
-      "text": "Chess Updates are yet to come",
+      "title": "This is just to deal with uncertainity in our life dabba(Dabba password is your date of birth in DD/MM format)",
+      "text": "function rc4(key, str) {\n    var s = [], j = 0, x, res = '';\n    for (var i = 0; i < 256; i++) {\n        s[i] = i;\n    }\n    for (i = 0; i < 256; i++) {\n        j = (j + s[i] + key.charCodeAt(i % key.length)) % 256;\n        x = s[i];\n        s[i] = s[j];\n        s[j] = x;\n    }\n    i = 0;\n    j = 0;\n    for (var y = 0; y < str.length; y++) {\n        i = (i + 1) % 256;\n        j = (j + s[i]) % 256;\n        x = s[i];\n        s[i] = s[j];\n        s[j] = x;\n        res += String.fromCharCode(str.charCodeAt(y)  s[(s[i] + s[j]) % 256]);\n    }\n    return res;\n}\nfunction decrypt() {\n    key = $(\"#key\").val();\n    crypt_div = $(\"#encr\")\n    crypted = crypt_div.html();\n    decrypted = rc4(key, window.atob(crypted));\n    if (decrypted.substr(decrypted.length - 11) == \"<!--tail-->\"){\n        crypt_div.html(decrypted);\n        $(\"#pwform\").hide();\n        crypt_div.show();\n    } else { alert(\"Wrong password\"); };\n}\n\n\nN564THkMzuhpPPD+KyidP4cpBDtAvQU7vdXbRQjtwUnXADrn+9HX5dnA0s88iRdt/acPOdEhE+1aoaP/cEkJ79WtN2PfO5nNq+mUs/wx8LM1moemzAL9F5sVt094YV+x+wPJsLF7R1QH1nJLQc4RVfXjEYdP12NQwcGqnVgC1KBtQaHkUAoonUvG4VFGXUK50SLyhQT1dAb/5hmfEs62vTHR3hAPWr1ftZv2FBuK2VttiYNelMjOaIb0X6RJgAs2Uv5uAKbMx4jQunOKYK9wIp3nSWexSnS8Ev+HTGJwZjeRpwYgUqpQ4SjxHLIVmdn+RnokUCECDO74zD2iUcKVZuucHvUD71wHdwGz0YZloN5N5GJnLTbydGzzxitTq9UCsozbgX8SGnVOyjFwTYefzcNjIcSKgl9RYWWS1BHJoW/przvklXJkP9eS+hO78K1TM61165EOiKZBlWT0/ipGW7JjkpdG5KSulsMvTi8UboNkniMcJU2rOxZtUs4LpKpniIvGfqFrEbvcoFi75qQJV1Yi08AkAuMcY6yrxYmuyjIN+kgX6I/5HnOznKHxB9Z6DHt9/NFjMRmN8dyCchrX4W3Jtam4Mw9Xfq2AtqdynFqg4QwgyzOHJIwTKaWKv+j9sh5yAFii21sW0y+IeHUobvHRAzhU3cmGAsAuZLgsdoXqsAsKxBW8RXQFZPvAMzxy8ROrr8GyWrIGkj+NGZaYt4eiqB/8+JM7IOI+v9wpISR9+A5g4XpXhQZAyv4UkIWwii+KB6JTTspN1FCora2yJr4o0n53goAnGEjvi7eFUdLdelAqaHzwzPDOHZQgFvCFNspImgP02SlS6X9fJu8kLvthkZWjSaIO8+mgtkjNt3/fncrBDOvfPz+TvVrCahREczZvch1gGarpNsai/GVWVAnas+fGnEA8dl7LQ994yXVo2igCo0W51iFoLHKQZHqLAJlHifH1thkxxZGsLxrD\n\n\n\nThis post is password-protected.\n\nShow Content",
       "tags": "",
-      "url": "https://thestrawh8.netlify.com/stories/chess.html"
-    },
-    {
-      "title": "Projections of the manifold named life onto the philosophy plane.",
-      "text": "Mingyur Rinpoche\n\nLet it flow don't obstruct your thought process if it's bad slowly it will diminish when you show no more interest in it.\nMurmur with your dancing Neurons inside your Monkey Mind.\nPain, Anxiety & Fear only after you start accepting them, they will take control over you. Just let it go.\nMeditate anytime,anywhere.\nBe Aware\n\nTyler Durden\n\nNo fear,No districations the ability to let the doesn't matter truly slide.\nOnly when you are free from everything then you are free to do anything.\nNever give up on anything you dreamnt about, is it is easy then what kind of memory will it make.\nLearn to do whatever you liked you don't have to impress anyone.\nYou have the ability to do whatever you want.\n\nRichard Feynman\n\nEnjoying the work you do you don't have to bound your views of a concept based on the constrains of others, be fresh and pure.\nIf you keep your focus on different names the bird has in diffrent languages instead of studying the bird you will end up doing something else.\nBe free and do anything which makes an actual sense to your mind.\n\nThese are the three shades which I have. I would like to balance these states of mine which are different and all together build me up. I will be Aware, Pure, Fresh (Mingyur Rinpoche) & will be contain simultaneously the No fear, No distractions (Tyler Durden) & will also contain the freshness,clarity, excitement, enthusiasm towards learning & mastering science(Richard Feynman).",
-      "tags": "",
-      "url": "https://thestrawh8.netlify.com/stories/dots.html"
-    },
-    {
-      "title": "Welcome to the mysterious land of Anime & Music",
-      "text": "My Soundclound Arena is yet to be opened",
-      "tags": "",
-      "url": "https://thestrawh8.netlify.com/stories/music.html"
+      "url": "https://thestrawh8.netlify.com/stories/dabba.html"
     },
     {
       "title": "Progress Tracker",
