@@ -12,4 +12,6 @@ In this I would like to share the working of UP. When trying to read the paper I
 
 Below we can see original and the estimated model's image.
 
-![Original image](/images/body.jpg){:height="25%" width="25%"} ![Reconstructed Image](/images/body_recon.png){:height="25%" width="25%"}
+<!-- ![Original image](/images/body.jpg){:height="25%" width="25%"} ![Reconstructed Image](/images/body_recon.png){:height="25%" width="25%"}
+ -->
+<p style="text-align:center"><img src ="/images/body.jpg" width="20%" height="20%" /> <img src ="/images/body_recon.png" width="20%" height="20%" /></p>
