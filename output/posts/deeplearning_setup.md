@@ -20,6 +20,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 ```
+<!-- TEASER_END -->
 Install one editor which you like the most
 ```sh
 sudo apt-get install vim
@@ -42,7 +43,6 @@ echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
 sudo update-initramfs -u
 sudo reboot
 ```
-<!-- TEASER_END -->
 > Intel+Nvidia GPU working setup using bumblebee and primus
 
 Basically using primus we can switch between the graphics and we take the help of bumblebee to make it smooth and we also take the help of a GUI indicator to make the transistions more simple.

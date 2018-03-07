@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
 @import url('https://fonts.googleapis.com/css?family=Neucha');
 /*!
  * bootswatch v3.3.7
@@ -220,6 +221,17 @@ th {
   }
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
+    content: "";
+  }
+  sidebar,
+  sidebar[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  sidebar[href^="#"]:after,
+  sidebar[href^="javascript:"]:after {
     content: "";
   }
   pre,
@@ -1088,9 +1100,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-/*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-*/font-family: 'Neucha', cursive;
-  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.42857143;
   /*color: #111;*/
   color: #504c4c;
@@ -1105,14 +1116,27 @@ textarea {
   line-height: inherit;
 }
 a {
+    /*font-family: 'Gentium Basic', serif;*/
+/*  font-family: 'Neucha', cursive;
+*/  font-size: 1.2em;
+  /*color: #2bb07c;*/
+  color: #3399f3;
+  /*color: #1a1919;*/
+  /*color: #ad0920;*/
+  /*color: #f57b05;*/
+  text-decoration: none;
+}
+sidebar {
   font-family: 'Neucha', cursive;
   font-size: 1.2em;
-  color: #ad0920;
+  /*color: #1a1919;*/
+  color: #2bb07c;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #3399f3;
+  color: #2bb07c;
+  /*color: #f57b05;*/
   text-decoration: underline;
 }
 a:focus {
@@ -1274,18 +1298,18 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 32px;
+  font-size: 28px;
   color: #ad0920;
 }
 h2,
 .h2 {
-  font-family: 'Neucha', cursive;
-  font-size: 26px;
+  /*font-family: 'Neucha', cursive;*/
+  font-size: 25px;
   color: #ad0920;
 }
 h3,
 .h3 {
-  font-family: 'Neucha', cursive;
+  /*font-family: 'Neucha', cursive;*/
   font-size: 22px;
   color: #26955e;
 }
@@ -1293,7 +1317,7 @@ h4,
 .h4 {
   font-family: 'Neucha', cursive;
   font-size: 18px;
-  color: #11cf71;
+  color: #26955e;
 }
 h5,
 .h5 {

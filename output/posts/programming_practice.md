@@ -1,5 +1,5 @@
 
-.. title: Programming Trajectory
+.. title: Programming Solutions Collection
 .. slug: 
 .. date: 2018-02-06 16:06 
 .. tags: Programming, Practice
@@ -7,7 +7,6 @@
 .. link: 
 .. description: 
 .. type: text
-
 
 ### Merge Two Binary Trees
 

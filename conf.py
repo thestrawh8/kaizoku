@@ -133,12 +133,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+    	("/stories/about.html", "Random Dots"),
     	("/","Home"),
-    	("/stories/academic.html","Academic"),
-        ((("/archive.html", "Archives"),("/categories/index.html", "Tags")),"Blog"),
-        # ("/stories/dabba.html","Dabba"),
-        ("/stories/progress.html","Progress"),
-        ("/stories/contact.html", "Contact")
+    	("/stories/progress.html","Progress"),
+        ((("/archive.html", "Archives"),("/categories/index.html", "Tags"),("/stories/personal.html","Personal")),"Blog"),
+        ("/stories/contact.html", "Contact"),
+        
     ),
 }
 
@@ -817,9 +817,9 @@ INDEX_TEASERS = True
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" style="color: #1e65c1;">{reading_time} minute read…</a><a </p>'
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}" style="color: #2bb07c;" >{reading_time} minute read…</a><a </p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
-FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
+FEED_READ_MORE_LINK = '<p><h5 href="{link}">{read_more}…</h5> ({min_remaining_read})</p>'
 
 # Append a URL query to the FEED_READ_MORE_LINK in Atom and RSS feeds. Advanced
 # option used for traffic source tracking.
@@ -844,7 +844,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date} powered by Nikola {license} and Thanks to {references}'
+# CONTENT_FOOTER = 'Contents &copy; {date} powered by Nikola {license} and Thanks to {references}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will

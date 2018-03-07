@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Learning Thoery)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/learning-thoery.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 03 Mar 2018 11:59:28 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Deep Learning Setup</title><link>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Specifications&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random Dots (Posts about Learning Thoery)</title><link>https://thestrawh8.netlify.com/</link><description></description><atom:link href="https://thestrawh8.netlify.com/categories/learning-thoery.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 07 Mar 2018 16:22:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Deep Learning Setup</title><link>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</link><dc:creator>thestrawh8</dc:creator><description>&lt;div&gt;&lt;h3&gt;Specifications&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OS - Ubuntu 16.04&lt;/li&gt;
 &lt;li&gt;Graphics - Nvidia Optimus (GTX1070 + IntelHD)&lt;/li&gt;
@@ -12,30 +12,4 @@ sudo apt-get upgrade
 &lt;/pre&gt;
 
 
-&lt;p&gt;Install one editor which you like the most&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install vim
-&lt;/pre&gt;
-
-
-&lt;p&gt;Before installing Drivers into your Hybrid system first we need to disable the nouveau (default display driver comes with linux) because it comes above all. Press 'CTRL+Alt+F1' you will enter shell now enter your username and password credentials and then continue&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;sudo vim /etc/modprobe.d/blacklist.conf
-&lt;/pre&gt;
-
-
-&lt;p&gt;Now add the following lines in the end of the file ( Save &amp;amp; Exit)&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;blacklist nouveau
-blacklist lbm-nouveau
-options nouveau &lt;span class="nv"&gt;modeset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;
-&lt;span class="nb"&gt;alias&lt;/span&gt; nouveau off
-&lt;span class="nb"&gt;alias&lt;/span&gt; lbm-nouveau off
-&lt;/pre&gt;
-
-
-&lt;p&gt;Now get back to terminal and enter the following and later update the kernel and reboot&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; options nouveau &lt;span class="nv"&gt;modeset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; sudo tee -a /etc/modprobe.d/nouveau-kms.conf
-sudo update-initramfs -u
-sudo reboot
-&lt;/pre&gt;
-
-
-&lt;p&gt;&lt;a href="https://thestrawh8.netlify.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/a&gt; (8 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><category>Learning Thoery</category><guid>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</guid><pubDate>Thu, 23 Nov 2017 01:54:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;/p&gt;&lt;h6 href="https://thestrawh8.netlify.com/posts/deeplearning_setup.html"&gt;Read more…&lt;/h6&gt; (8 min remaining to read)&lt;/div&gt;</description><category>Caffe</category><category>Graphics-drivers</category><category>Learning Thoery</category><guid>https://thestrawh8.netlify.com/posts/deeplearning_setup.html</guid><pubDate>Thu, 23 Nov 2017 01:54:00 GMT</pubDate></item></channel></rss>
