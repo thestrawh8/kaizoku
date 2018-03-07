@@ -1,5 +1,5 @@
 
-.. title: My personal feelings
+.. title: Personal Random Dots
 .. slug: 
 .. date: 2018-01-12 12:06:09 UTC
 .. tags: 
