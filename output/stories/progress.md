@@ -10,7 +10,7 @@
 .. hidetitle: True
 .. nocomments: True
 
-> Targets for 2018 March 10 - March 25
+<!-- > Targets for 2018 March 10 - March 25
 
 ## Reading Targets
 
@@ -34,8 +34,8 @@
 
 * [Linear Algebra](http://www.math.brown.edu/~treil/papers/LADW/LADW_2015-07.pdf)
 * [Non Convex Optimization](https://arxiv.org/pdf/1712.07897.pdf)
-
-<div class="progress">
+ -->
+<!-- <div class="progress">
   <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0% work done</div>
 </div>
-
+ -->
