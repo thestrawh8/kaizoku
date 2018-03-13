@@ -353,7 +353,7 @@
 'render_pages:output/stories/about-me.html', (1687040, 5247)
 'render_posts:cache/stories/about-me.html', (1667584, 358)
 'render_posts:cache/stories/about.html', (1692672, 440)
-'render_pages:output/stories/about.html', (1699328, 5155)
+'render_pages:output/stories/about.html', (1699328, 5154)
 'render_sources:output/stories/about.src.html', (1698304, 244)
 'render_sources:output/stories/about.md', (1698816, 239)
 'scale_images:output/images/sun.png', (1704960, 208)
