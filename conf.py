@@ -135,9 +135,9 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
     	("/stories/about.html", "About"),
     	("/","Blog"),
-    	("/stories/progress.html","Progress"),
-        ("/stories/personal.html","Personal"),
+    	((("/stories/theory.html","Machine Learning Theory"),("/stories/practice.html","Machine Learning Practice"),("/stories/programming.html","Programming")),"Progress"),
         ((("/archive.html", "Archive"),("/categories/index.html", "Tags")),"Archive"),
+        ("/stories/personal.html","Personal"),
         ("/stories/contact.html", "Contact"),
         
     ),
