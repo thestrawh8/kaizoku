@@ -1,5 +1,5 @@
 
-.. title: Theory
+.. title: Machine Learning Theory
 .. slug: theory
 .. date: 2018-03-07 16:58:08 UTC+05:30
 .. tags: 
@@ -7,7 +7,6 @@
 .. link: 
 .. description: 
 .. type: text
-.. hidetitle: True
 .. nocomments: True
 
 > 2018 March 21

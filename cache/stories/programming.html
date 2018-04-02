@@ -1,4 +1,130 @@
 <blockquote>
+<p>2018 April 02</p>
+</blockquote>
+<h2>Finding articulation Points in Graphs</h2>
+<p>Given a connected graph with n vertices and m edges, the vertices are said to be articulation vertices when removing them would result in a disconnected graph. The regular approach would be remove single point from the graph and check if the remainig graph is connected or not by DFS/BFS. This would result in complexity of O(n(n+m)) to find all the articulated points. Instead in order to find the points in O(n+m) we use the following algorithm. Simply saying when there are not back edges all the inner points are articulated points. If there is a back edge connecting to its ancestors which is not its parent then it usually results in a cycle mostly where the points in between the ancestor and out vertex would not result in disconnectivity of graph since having an alternate back path which would connect remaining vertices.</p>
+<p style="text-align:center"><img src ="/images/articualtion.png" width="20%" height="20%" /></p>
+
+<p>Conditions of an articualtion point:</p>
+<ol>
+<li>If the point is root and has more than one child.</li>
+<li>If the children's discovery time is not less than the discovery time of parent. Then parent is an articulation point.</li>
+</ol>
+<p><a href="http://www.spoj.com/problems/SUBMERGE/">Example Problem - SUBMERGE</a></p>
+<pre class="code literal-block"><span></span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;cstring&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp"></span>
+
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">Graph</span><span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="kt">int</span> <span class="n">V</span><span class="p">,</span><span class="n">time</span><span class="p">;</span>
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">articulation_points</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">parent</span><span class="p">,</span><span class="o">*</span><span class="n">lowest_ancestor</span><span class="p">,</span><span class="o">*</span><span class="n">discovered_time</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="o">*</span><span class="n">visited</span><span class="p">,</span><span class="n">done</span><span class="p">,</span><span class="o">*</span><span class="n">articulation_point</span><span class="p">;</span>
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">adjacency_list</span><span class="p">;</span>
+
+    <span class="kt">void</span> <span class="nf">articulation_checker</span><span class="p">(</span><span class="kt">int</span> <span class="n">u</span><span class="p">){</span>
+        <span class="n">visited</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">num_child</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+        <span class="n">discovered_time</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="n">lowest_ancestor</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="o">++</span><span class="n">time</span><span class="p">;</span>
+        <span class="k">for</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">i</span> <span class="o">=</span> <span class="n">adjacency_list</span><span class="p">[</span><span class="n">u</span><span class="p">].</span><span class="n">begin</span><span class="p">();</span><span class="n">i</span> <span class="o">!=</span> <span class="n">adjacency_list</span><span class="p">[</span><span class="n">u</span><span class="p">].</span><span class="n">end</span><span class="p">();</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+            <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">visited</span><span class="p">[</span><span class="o">*</span><span class="n">i</span><span class="p">]){</span>
+                <span class="n">num_child</span><span class="o">++</span><span class="p">;</span>
+                <span class="n">parent</span><span class="p">[</span><span class="o">*</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">u</span><span class="p">;</span>
+                <span class="n">articulation_checker</span><span class="p">(</span><span class="o">*</span><span class="n">i</span><span class="p">);</span>
+                <span class="n">lowest_ancestor</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">lowest_ancestor</span><span class="p">[</span><span class="n">u</span><span class="p">],</span><span class="n">lowest_ancestor</span><span class="p">[</span><span class="o">*</span><span class="n">i</span><span class="p">]);</span>
+
+                <span class="k">if</span><span class="p">(</span><span class="n">parent</span><span class="p">[</span><span class="n">u</span><span class="p">]</span><span class="o">==-</span><span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">num_child</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">){</span>
+                    <span class="n">articulation_point</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="n">parent</span><span class="p">[</span><span class="n">u</span><span class="p">]</span><span class="o">!=</span> <span class="o">-</span><span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">lowest_ancestor</span><span class="p">[</span><span class="o">*</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">discovered_time</span><span class="p">[</span><span class="n">u</span><span class="p">]){</span>
+                    <span class="n">articulation_point</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+            <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="o">*</span><span class="n">i</span> <span class="o">!=</span> <span class="n">parent</span><span class="p">[</span><span class="n">u</span><span class="p">])</span>
+                <span class="n">lowest_ancestor</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">lowest_ancestor</span><span class="p">[</span><span class="n">u</span><span class="p">],</span><span class="n">discovered_time</span><span class="p">[</span><span class="o">*</span><span class="n">i</span><span class="p">]);</span>
+        <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">Graph</span><span class="p">(</span><span class="kt">int</span> <span class="n">V</span><span class="p">){</span>
+        <span class="k">this</span><span class="o">-&gt;</span><span class="n">V</span> <span class="o">=</span> <span class="n">V</span><span class="p">;</span>
+        <span class="n">time</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="n">done</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="n">adjacency_list</span> <span class="o">=</span> <span class="k">new</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+        <span class="n">parent</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+        <span class="n">lowest_ancestor</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+        <span class="n">discovered_time</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+        <span class="n">visited</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">bool</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+        <span class="n">articulation_point</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">bool</span><span class="p">[</span><span class="n">V</span><span class="p">];</span>
+
+
+        <span class="n">memset</span><span class="p">(</span><span class="n">parent</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">V</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span>
+        <span class="n">memset</span><span class="p">(</span><span class="n">visited</span><span class="p">,</span><span class="nb">false</span><span class="p">,</span><span class="n">V</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">bool</span><span class="p">));</span>
+        <span class="n">memset</span><span class="p">(</span><span class="n">articulation_point</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="n">V</span> <span class="o">*</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">bool</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">Graph</span><span class="p">(){</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">adjacency_list</span><span class="p">;</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">discovered_time</span><span class="p">;</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">parent</span><span class="p">;</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">lowest_ancestor</span><span class="p">;</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">articulation_point</span><span class="p">;</span>
+        <span class="k">delete</span> <span class="p">[]</span> <span class="n">visited</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="kt">bool</span> <span class="n">addedge</span><span class="p">(</span><span class="kt">int</span> <span class="n">u</span><span class="p">,</span><span class="kt">int</span> <span class="n">v</span><span class="p">){</span>
+    <span class="n">u</span> <span class="o">=</span> <span class="n">u</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">v</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">u</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">u</span> <span class="o">&gt;=</span> <span class="n">V</span><span class="p">)</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">v</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">v</span> <span class="o">&gt;=</span> <span class="n">V</span><span class="p">)</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="n">adjacency_list</span><span class="p">[</span><span class="n">u</span><span class="p">].</span><span class="n">push_back</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
+    <span class="n">adjacency_list</span><span class="p">[</span><span class="n">v</span><span class="p">].</span><span class="n">push_back</span><span class="p">(</span><span class="n">u</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+    <span class="kt">void</span> <span class="n">dfs</span><span class="p">(){</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">V</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">visited</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">articulation_checker</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">getarticulation_points</span><span class="p">(){</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">done</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">articulation_points</span><span class="p">;</span>
+        <span class="n">dfs</span><span class="p">();</span>
+        <span class="n">done</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">u</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">u</span> <span class="o">&lt;</span> <span class="n">V</span><span class="p">;</span> <span class="n">u</span><span class="o">++</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">articulation_point</span><span class="p">[</span><span class="n">u</span><span class="p">])</span>
+                <span class="n">articulation_points</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">u</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">articulation_points</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">int</span> <span class="n">num_vert</span><span class="p">,</span><span class="n">num_edg</span><span class="p">,</span><span class="n">vert1</span><span class="p">,</span><span class="n">vert2</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">){</span>
+        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">num_vert</span> <span class="o">&gt;&gt;</span> <span class="n">num_edg</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">num_vert</span> <span class="o">!=</span><span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">num_edg</span> <span class="o">!=</span><span class="mi">0</span><span class="p">){</span>
+            <span class="n">Graph</span> <span class="n">G</span><span class="p">(</span><span class="n">num_vert</span><span class="p">);</span>
+            <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">num_edg</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+                <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">vert1</span> <span class="o">&gt;&gt;</span> <span class="n">vert2</span><span class="p">;</span>
+                <span class="n">G</span><span class="p">.</span><span class="n">addedge</span><span class="p">(</span><span class="n">vert1</span><span class="p">,</span><span class="n">vert2</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">G</span><span class="p">.</span><span class="n">getarticulation_points</span><span class="p">().</span><span class="n">size</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">else</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+
+
+<blockquote>
 <p>2018 March 22</p>
 </blockquote>
 <ol>
