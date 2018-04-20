@@ -137,9 +137,8 @@ NAVIGATION_LINKS = {
     	("/","Blog"),
     	((("/stories/theory.html","Machine Learning Theory"),("/stories/practice.html","Machine Learning Practice"),("/stories/programming.html","Programming")),"Progress"),
         ((("/archive.html", "Archive"),("/categories/index.html", "Tags")),"Archive"),
-        ("/stories/personal.html","Personal"),
+        ((("/stories/personal.html", "Secrets"),("/stories/schedule.html", "Schedule")),"Personal"),
         ("/stories/contact.html", "Contact"),
-        
     ),
 }
 
