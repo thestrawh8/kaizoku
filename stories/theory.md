@@ -9,6 +9,12 @@
 .. type: text
 .. nocomments: True
 
+> 2018 May 08
+
+1. Is it true that every 6 vertex graph has either 3 vertex clique or 3 vertex independent set in it ?
+2. Complete bipartite graph is not complete graph
+
+
 > 2018 March 21
 
 * Primary
