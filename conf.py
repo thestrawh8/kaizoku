@@ -19,7 +19,7 @@ import json
 
 # Data about this site
 BLOG_AUTHOR = "thestrawh8"  # (translatable)
-BLOG_TITLE = "Random Dots"  # (translatable)
+BLOG_TITLE = "Random Connected Dots"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://thestrawh8.netlify.com/"
@@ -137,7 +137,7 @@ NAVIGATION_LINKS = {
     	("/","Blog"),
     	((("/stories/theory.html","Machine Learning Theory"),("/stories/practice.html","Machine Learning Practice"),("/stories/programming.html","Programming")),"Progress"),
         ((("/archive.html", "Archive"),("/categories/index.html", "Tags")),"Archive"),
-        ((("/stories/personal.html", "Secrets"),("/stories/schedule.html", "Schedule")),"Personal"),
+        ((("/stories/personal.html", "Secrets"),("/stories/schedule.html", "Complete Schedule"),("/stories/theoryguide.html","Theory Schedule")),"Personal"),
         ("/stories/contact.html", "Contact"),
     ),
 }

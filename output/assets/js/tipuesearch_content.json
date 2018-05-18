@@ -1,8 +1,14 @@
 {
   "pages": [
     {
-      "title": "May-Jun",
-      "text": "May-Jun",
+      "title": "theoryguide",
+      "text": "theoryguide",
+      "tags": "",
+      "url": "https://thestrawh8.netlify.com/stories/theoryguide.html"
+    },
+    {
+      "title": "Current",
+      "text": "Current",
       "tags": "",
       "url": "https://thestrawh8.netlify.com/stories/schedule.html"
     },
@@ -20,7 +26,7 @@
     },
     {
       "title": "Machine Learning Theory",
-      "text": "2018 March 21\n\n\n\nPrimary\n\nHow does the expression of Maximum Likelihood Estimiator under Gaussian Assumption look like ?\nEmpirical --> The one that is decided from the data.\nProof of Sparse Inverse Covariance Matrix Estimation's Objetive function.\nWhat is the significance of a low rank matrix ?\nComputation is one advantage where when we need to compute a matrix multiplication of two low ranked matrices we can take advantage of low rank property of the matrices and also sometimes when the values are almost close to 0 relatively like 0.0000001 then treating it a zero wouldn't affect musch of our calculations.\n\n\n\n\n\nSupplementary\n\nMatrix Completion Problem",
+      "text": "2018 May 08\n\n\nIs it true that every 6 vertex graph has either 3 vertex clique or 3 vertex independent set in it ?\nComplete bipartite graph is not complete graph\n\n\n2018 March 21\n\n\n\nPrimary\n\nHow does the expression of Maximum Likelihood Estimiator under Gaussian Assumption look like ?\nEmpirical --> The one that is decided from the data.\nProof of Sparse Inverse Covariance Matrix Estimation's Objetive function.\nWhat is the significance of a low rank matrix ?\nComputation is one advantage where when we need to compute a matrix multiplication of two low ranked matrices we can take advantage of low rank property of the matrices and also sometimes when the values are almost close to 0 relatively like 0.0000001 then treating it a zero wouldn't affect musch of our calculations.\n\n\n\n\n\nSupplementary\n\nMatrix Completion Problem",
       "tags": "",
       "url": "https://thestrawh8.netlify.com/stories/theory.html"
     },
