@@ -1118,14 +1118,13 @@ textarea {
 }
 a {
     /*font-family: 'Gentium Basic', serif;*/
-/*  font-family: 'Neucha', cursive;
-*/
-font-family: 'Rosario', sans-serif;
-  font-size: 1.15em;
+  font-family: 'Neucha', cursive;
+/* font-family: 'Rosario', sans-serif; */
+  font-size: 1.25em;
   /*color: #2bb07c;*/
-  color: #3399f3;
+  /* color: #3399f3; */
   /*color: #1a1919;*/
-  /*color: #ad0920;*/
+  color: #ad0920;
   /*color: #f57b05;*/
   text-decoration: none;
 }
@@ -1133,7 +1132,8 @@ sidebar {
   font-family: 'Neucha', cursive;
   font-size: 1.2em;
   /*color: #1a1919;*/
-  color: #2bb07c;
+  /* color: #2bb07c; */
+  color: #ad0920;
   text-decoration: none;
 }
 a:hover,
@@ -1220,7 +1220,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Neucha', cursive;
   font-weight: 500;
   line-height: 1.1;
   color: #2d2d2d;
@@ -1301,18 +1302,19 @@ h6 .small,
 }
 h1,
 .h1 {
+  font-family: 'Neucha', cursive;
   font-size: 28px;
   color: #ad0920;
 }
 h2,
 .h2 {
-  /*font-family: 'Neucha', cursive;*/
+  font-family: 'Neucha', cursive;
   font-size: 25px;
   color: #ad0920;
 }
 h3,
 .h3 {
-  /*font-family: 'Neucha', cursive;*/
+  font-family: 'Neucha', cursive;
   font-size: 22px;
   color: #26955e;
 }
