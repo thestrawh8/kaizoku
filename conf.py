@@ -133,12 +133,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-    	# ("/stories/about.html", "About"),
-    	("/","Blog"),
-        ("/stories/theory.html","Machine Learning Theory"),
-        ("/stories/practice.html","Machine Learning Practice"),
-        ("/stories/programming.html","Algorithms & Programming"),
-    	# ((("/stories/theory.html","Machine Learning Theory"),("/stories/practice.html","Machine Learning Practice"),("/stories/programming.html","Programming")),"Progress"),
+    	("/stories/about.html", "About"),
+    	("/","Home"),
+        # ("/stories/theory.html","Machine Learning Theory"),
+        # ("/stories/practice.html","Machine Learning Practice"),
+    	((("/stories/theory.html","Theoretical"),("/stories/practice.html","Practical")),"Machine Learning"),
+        ((("/stories/programming.html","Algorithmic Programming"),("/stories/systems.html","System Programming")),"Programming"),
         ((("/archive.html", "Archive"),("/categories/index.html", "Tags")),"Archive"),
         # ((("/stories/personal.html", "Secrets"),("/stories/schedule.html", "Complete Schedule"),("/stories/theoryguide.html","Theory Schedule")),"Personal"),
         ("/stories/contact.html", "Contact"),

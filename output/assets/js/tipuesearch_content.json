@@ -1,14 +1,20 @@
 {
   "pages": [
     {
+      "title": "Systems Programming",
+      "text": "Write your post here.",
+      "tags": "",
+      "url": "https://thestrawh8.netlify.com/stories/systems.html"
+    },
+    {
       "title": "Current",
       "text": "Current",
       "tags": "",
       "url": "https://thestrawh8.netlify.com/stories/schedule.html"
     },
     {
-      "title": "Theory Guide",
-      "text": "Theory Guide",
+      "title": "theoryschedule",
+      "text": "theoryschedule",
       "tags": "",
       "url": "https://thestrawh8.netlify.com/stories/theoryguide.html"
     },
